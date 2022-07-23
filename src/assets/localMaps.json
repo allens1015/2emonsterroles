@@ -12,5 +12,37 @@
     "spellDC": "Spell DC",
     "attacks": "Strike Attack Bonus",
     "damage": "Strike Damage"
+  },
+  "possibleRoles": [
+    { "name": "artillery", "displayName": "Artillery"},
+    { "name": "4ebrute", "displayName": "4e Brute"},
+    { "name": "controller", "displayName": "Controller"},
+    { "name": "lurker", "displayName": "Lurker"},
+    { "name": "minion", "displayName": "Minion"},
+    { "name": "4eskirmisher", "displayName": "4e Skirmisher"},
+    { "name": "soldier", "displayName": "4e Soldier"},
+    { "name": "2ebrute", "displayName": "2e Brute"},
+    { "name": "magicalstriker", "displayName": "Magical Striker"},
+    { "name": "skillparagon", "displayName": "Skill Paragon"},
+    { "name": "2eskirmisher", "displayName": "2e Skirmisher"},
+    { "name": "sniper", "displayName": "Sniper"},
+    { "name": "2esoldier", "displayName": "2e Soldier"},
+    { "name": "spellcaster", "displayName": "Spellcaster"}
+  ],
+  "rolesDataMap": {
+    "artillery": {
+      "stats": 2,
+      "ac": 2,
+      "hp": 1,
+      "perception": 1,
+      "resistAndWeakness": 0,
+      "safeItemLevel": 0,
+      "saves": 2,
+      "skills": 1,
+      "spellAttack": 1,
+      "spellDC": 1,
+      "attacks": 1,
+      "damage": 1
+    }
   }
 }

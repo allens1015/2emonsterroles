@@ -15,7 +15,10 @@
         <v-select
           v-model="monsterRoles.selectedRole"
           :items="possibleRoles"
+          item-text="displayName"
+          item-value="name"
           label="Role"
+          clearable
         ></v-select>
       </v-col>
       <v-col>
@@ -34,6 +37,7 @@
 <script>
 import monsterRoles from "../models/monsterRoles";
 import monsterSpecials from "../assets/monsterSpecials.json";
+import localMaps from "../assets/localMaps.json";
 // import InputEntry from "./InputEntry";
 
 export default ({
@@ -46,7 +50,7 @@ export default ({
     // models
     monsterRoles,
     monsterSpecials,
-    possibleRoles: ["","Artillery","4e Brute","Controller","Lurker","Minion","Skirmisher","Soldier","2e Brute","Magical Striker","Skill Paragon","Skirmisher","Sniper","Soldier","Spellcaster"]
+    possibleRoles: localMaps.possibleRoles
   })
 })
 </script>
