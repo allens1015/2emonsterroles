@@ -1,15 +1,22 @@
 <template>
   <v-container>
+    <h3>{{ selectedSpecials.length }} Results</h3>
     <v-list class="special-list">
       <v-list-item
         v-for="(item,i) in selectedSpecials"
         :key="i"
       >
-        <v-card>
-          <v-banner>
-            <v-card-title>{{ item.name }}</v-card-title>
-          </v-banner>
+        <v-card
+          class="special-result-card"
+        >
           <v-card-text>
+            <div
+              v-for="(text,j) in item.content"
+              :key="j"
+            >
+              <h2>{{ text.name }} - {{ item.source }}</h2>
+              <p>{{ text.text }}</p>
+            </div>
             <div>
               <v-row
                 dense
@@ -24,14 +31,6 @@
                 </v-col>
               </v-row>
             </div>
-            <div
-              v-for="(text,j) in item.content"
-              :key="j"
-            >
-              <h4>{{ text.name }}</h4>
-              <p>{{ text.text }}</p>
-            </div>
-            <h4>{{ item.source }}</h4>
           </v-card-text>
           
         </v-card>
@@ -78,6 +77,9 @@ export default ({
   .special-list {
     max-height: 70vh;
     overflow-y: scroll;
+  }
+  .special-result-card {
+    margin-bottom: 1em;
   }
   .bold {
     font-weight: bold;
