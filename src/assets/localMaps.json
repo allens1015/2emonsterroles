@@ -18,7 +18,6 @@
     { "name": "4ebrute", "displayName": "4e Brute"},
     { "name": "controller", "displayName": "Controller"},
     { "name": "lurker", "displayName": "Lurker"},
-    { "name": "minion", "displayName": "Minion"},
     { "name": "4eskirmisher", "displayName": "4e Skirmisher"},
     { "name": "soldier", "displayName": "4e Soldier"},
     { "name": "2ebrute", "displayName": "2e Brute"},
@@ -29,6 +28,7 @@
     { "name": "2esoldier", "displayName": "2e Soldier"},
     { "name": "spellcaster", "displayName": "Spellcaster"}
   ],
+  "defaultHeaders": ["Extreme","High","Moderate","Low","Terrible"],
   "rolesDataMap": {
     "artillery": {
       "stats": 2,
@@ -41,6 +41,48 @@
       "skills": 1,
       "spellAttack": 1,
       "spellDC": 1,
+      "attacks": 1,
+      "damage": 1
+    },
+    "4ebrute": {
+      "stats": 0,
+      "ac": 3,
+      "hp": 0,
+      "perception": 2,
+      "resistAndWeakness": 0,
+      "safeItemLevel": 0,
+      "saves": 3,
+      "skills": 2,
+      "spellAttack": 2,
+      "spellDC": 2,
+      "attacks": 2,
+      "damage": 0
+    },
+    "controller": {
+      "stats": 1,
+      "ac": 2,
+      "hp": 1,
+      "perception": 2,
+      "resistAndWeakness": 0,
+      "safeItemLevel": 0,
+      "saves": 2,
+      "skills": 1,
+      "spellAttack": 1,
+      "spellDC": 1,
+      "attacks": 1,
+      "damage": 2
+    },
+    "lurker": {
+      "stats": 2,
+      "ac": 3,
+      "hp": 1,
+      "perception": 0,
+      "resistAndWeakness": 0,
+      "safeItemLevel": 0,
+      "saves": 1,
+      "skills": 0,
+      "spellAttack": 2,
+      "spellDC": 2,
       "attacks": 1,
       "damage": 1
     }
