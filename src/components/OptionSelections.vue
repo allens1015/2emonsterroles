@@ -8,6 +8,7 @@
           label="Level"
           min="-1"
           max="24"
+          v-model="monsterRoles.selectedLevel"
         ></v-text-field>
       </v-col>
       <v-col>
@@ -23,6 +24,7 @@
           :items="monsterRoles.distinctTags"
           label="Select Special Tags"
           multiple
+          clearable
         ></v-combobox>
       </v-col>
     </v-row>

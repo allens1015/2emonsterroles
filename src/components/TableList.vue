@@ -1,14 +1,19 @@
 <template>
   <v-container>
-    A table row
+    <!-- <Table /> -->
+    <Table tableTypeIn="stats" />
   </v-container>
 </template>
 
 <script>
 import monsterRoles from "../models/monsterRoles";
+import Table from "./Table";
 
 export default ({
-  name: "TableRow",
+  name: "TableList",
+  components: {
+    Table
+  },
   data: () => ({
     // models
     monsterRoles
