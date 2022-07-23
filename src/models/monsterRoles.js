@@ -20,20 +20,6 @@ class MonsterRoles {
     this.spellDC= monsterStats.spellDC;
     this.attacks= monsterStats.strikeAttack;
     this.damage= monsterStats.strikeDamage;
-    this.tableMap = {
-      "stats": "Ability Scores",
-      "ac": "AC",
-      "hp": "HP",
-      "perception": "Perception",
-      "resistAndWeakness": "Resistances and Weaknesses",
-      "safeItemLevel": "Safe Item Level",
-      "saves": "Saving Throws",
-      "skills": "Skills",
-      "spellAttack": "Spell Attack",
-      "spellDC": "Spell DC",
-      "attacks": "Strike Attack Bonus",
-      "damage": "Strike Damage"
-    }
   }
 
   getDistinctTags() {

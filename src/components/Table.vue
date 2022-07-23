@@ -1,14 +1,14 @@
 <template>
   <v-container>
-    <h3>{{ monsterRoles.tableMap[tableTypeIn] }}</h3>
-    <v-row>
+    <h3>{{ localMaps.monsterStatsMap[tableTypeIn] }}</h3>
+    <!-- <v-row>
       <v-col
         v-for="(header,i) in getTableHeaders(tableTypeIn)"
         :key="i"
       >
         {{ header }}
       </v-col>
-    </v-row>
+    </v-row> -->
     <v-row
       v-for="(row,i) in getTableData(tableTypeIn)"
       :key="i"
@@ -18,9 +18,10 @@
         v-for="(col,j) in row"
         :key="j"
       >
-        {{ col }}
+        {{ processColumn(col) }}
       </v-col>
     </v-row>
+    <v-divider></v-divider>
 
 <!-- {{ getTableData(tableTypeIn) }} -->
     <!-- {{ headers }}
@@ -31,6 +32,7 @@
 
 <script>
 import monsterRoles from "../models/monsterRoles";
+import localMaps from "../assets/localMaps.json";
 
 export default ({
   name: "Table",
@@ -38,6 +40,7 @@ export default ({
   data: () => ({
     // models
     monsterRoles,
+    localMaps,
     tableType: "stats",
     headers: ["Extreme","High","Moderate","Low","Terrible"],
     defaultHeaders: ["Extreme","High","Moderate","Low","Terrible"],
@@ -66,6 +69,18 @@ export default ({
     },
     getTableData(prop) {
       return monsterRoles[prop];
+    },
+    processColumn(col) {
+      if(col.max && col.min) {
+        if(col.max == col.min) {
+          return col.max;
+        }
+        return `${col.min}-${col.max}`;
+      }
+      if(col.stringDamage) {
+        return col.stringDamage
+      }
+      return col;
     }
   }
 })

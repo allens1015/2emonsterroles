@@ -6,6 +6,11 @@
     <Table tableTypeIn="hp" />
     <Table tableTypeIn="perception" />
     <Table tableTypeIn="saves" />
+    <Table tableTypeIn="skills" />
+    <Table tableTypeIn="attacks" />
+    <Table tableTypeIn="damage" />
+    <Table tableTypeIn="spellAttack" />
+    <Table tableTypeIn="spellDC" />
   </v-container>
 </template>
 
