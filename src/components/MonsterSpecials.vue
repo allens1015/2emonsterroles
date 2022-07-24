@@ -82,6 +82,8 @@ export default ({
     margin-bottom: 1em;
   }
   .bold {
+    color:blue;
+    font-size: 1.5em;
     font-weight: bold;
   }
 </style>

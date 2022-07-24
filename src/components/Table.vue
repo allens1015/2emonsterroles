@@ -56,6 +56,9 @@ export default ({
       if(!monsterRoles.selectedRole) {
         return;
       }
+      if(table == "resistAndWeakness") {
+        return;
+      }
       if(level == monsterRoles.selectedLevel && localMaps.rolesDataMap[monsterRoles.selectedRole][table] == column)
         return true;
       return;
@@ -66,8 +69,6 @@ export default ({
 
 <style scoped>
   .focus {
-    /* color: white; */
-    /* background-color:darkgreen; */
     color:blue;
     font-size: 1.5em;
     font-weight: bold;

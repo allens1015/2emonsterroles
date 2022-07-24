@@ -23,6 +23,7 @@
     <Table tableTypeIn="damage" />
     <Table tableTypeIn="spellAttack" />
     <Table tableTypeIn="spellDC" />
+    <Table tableTypeIn="resistAndWeakness" />
   </v-container>
 </template>
 
