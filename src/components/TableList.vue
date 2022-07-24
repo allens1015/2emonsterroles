@@ -1,5 +1,17 @@
 <template>
   <v-container>
+    <v-card
+      v-if="getHelperText()"
+    >
+      <v-card-text>
+        <p
+          v-for="(text,i) in getHelperText()"
+          :key="i"
+        >
+          {{ text }}
+        </p>
+      </v-card-text>
+    </v-card>
     <!-- <Table /> -->
     <Table tableTypeIn="stats" />
     <Table tableTypeIn="ac" />
@@ -16,6 +28,7 @@
 
 <script>
 import monsterRoles from "../models/monsterRoles";
+import localMaps from "../assets/localMaps.json";
 import Table from "./Table";
 
 export default ({
@@ -25,7 +38,16 @@ export default ({
   },
   data: () => ({
     // models
-    monsterRoles
-  })
+    monsterRoles,
+    localMaps
+  }),
+  methods: {
+    getHelperText() {
+      if(monsterRoles.selectedRole) {
+        return localMaps.rolesDataMap[monsterRoles.selectedRole].text
+      }
+      return;
+    }
+  }
 })
 </script>

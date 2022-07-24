@@ -1,6 +1,11 @@
 <template>
   <v-container>
-    <TableList />
+    <v-btn
+      @click="isVisible = !isVisible"
+    >
+      Toggle Stat Arrays
+    </v-btn>
+    <TableList v-show="isVisible" />
     <MonsterSpecials />
   </v-container>
 </template>
@@ -18,7 +23,8 @@ export default ({
   },
   data: () => ({
     // models
-    monsterRoles
+    monsterRoles,
+    isVisible: true
   })
 })
 </script>
