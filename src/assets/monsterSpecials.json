@@ -3,7 +3,8 @@
     "source": "Animated Broom",
     "content": [{
       "name": "Dust",
-      "text": "A creature hit by an animated broom’s bristles must succeed at a DC 15 Fortitude save or spend its next action coughing. Even if hit by multiple dust attacks, the creature has to spend only 1 action coughing to clear the dust out. A creature that doesn’t breathe is immune to this effect."
+      "text": "A creature hit by an animated broom’s bristles must succeed at a DC 15 Fortitude save or spend its next action coughing. Even if hit by multiple dust attacks, the creature has to spend only 1 action coughing to clear the dust out. A creature that doesn’t breathe is immune to this effect.",
+      "action": "Passive"
     }]
   },
   {
@@ -99,7 +100,7 @@
     ]
   },
   {
-    "tags": ["AC","Adjacent","Movement","Reaction","Kobold","Humanoid"],
+    "tags": ["AC Bonus","Adjacent","Movement","Reaction","Kobold","Humanoid"],
     "source": "Kobold Warrior",
     "content": [
       {
@@ -275,7 +276,7 @@
     ]
   },
   {
-    "tags": ["Damage Resistance","Piercing","Slashing","Aura","Smell","Fortitude","Sickened","Disease","Mindless","Undead"],
+    "tags": ["Damage Resistance","Piercing","Slashing","Aura","Olfactory","Fortitude","Sickened","Disease","Mindless","Undead"],
     "source": "Skeleton",
     "content": [
       {
@@ -374,7 +375,7 @@
     ]
   },
   {
-    "tags": ["Mindless","Undead","Zombie","Prone","Flat-Footed","Trip","Athletics","Crawl"],
+    "tags": ["Mindless","Undead","Zombie","Prone","Flat-Footed","Trip","Athletics","Crawl","Skill Bonus"],
     "source": "Zombie",
     "content": [
       {
@@ -429,7 +430,7 @@
     ]
   },
   {
-    "tags": ["Mindless","Undead","Zombie","Ranged","Strike","Acid","Critical Hit","Persistent Damage","Recharge"],
+    "tags": ["Mindless","Undead","Zombie","Ranged","Strike","Acid","Critical Hit","Persistent Damage","Recharge","Action Reduction"],
     "source": "Zombie",
     "content": [
       {
@@ -462,6 +463,1080 @@
     ]
   },
   {
+    "tags": ["Construct","Poison","Fortitude","Enfeebled"],
+    "source": "Homonculus",
+    "content": [
+      {
+        "name": "Homonculus Poison",
+        "text": "A homunculus has one dose of poison in a reservoir in its head. It can refill this poison from its reserves with an Interact action. Saving Throw DC 15 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison and enfeebled 1 (1 round)",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Leshy","Plant","Polymorph","Concentrate","Primal","Transmutation"],
+    "source": "Leaf Leshy",
+    "content": [
+      {
+        "name": "Change Shape",
+        "text": "The leaf leshy transforms into a Small tree. This ability otherwise uses the effects of tree shape.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Leshy","Plant","Strike","Fortitude","Deafened"],
+    "source": "Leaf Leshy",
+    "content": [
+      {
+        "name": "Deafening Blow",
+        "text": "When a leaf leshy hits with its seedpod Strike, the target must attempt a DC 16 Fortitude save. Critical Success The target is unaffected and temporarily immune for 24 hours. Success The target is unaffected. Failure The target is deafened for 1 round. Critical Failure The target is deafened for 1 minute.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Leshy","Plant","Movement","Fly","Move","Action Reduction"],
+    "source": "Leaf Leshy",
+    "content": [
+      {
+        "name": "Glide",
+        "text": "The leshy glides gently through the air, moving 5 feet toward the ground and up to 25 feet forward. As long as the leshy spends at least 1 action gliding each round, it remains in the air at the end of each turn. For the purpose of determining damage from falls, a leaf leshy always treats falls as if they were 20 feet shorter.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Devil","Fiend","Mindless"],
+    "source": "Lemure",
+    "content": [
+      {
+        "name": "Subservience",
+        "text": "Lemures have little drive of their own, but other devils can take command of them. A non-lemure devil can issue a command to all lemures within 60 feet of it with a single action, which has the auditory and concentrate traits. The devil picks one of the following orders lemures can understand, and the lemures follow that order. The command and its effects end once the commander is out of the lemure’s sight, a new command is issued by the same or another devil, or the lemure dies. KILL The lemure attacks one target the commander singles out and gains a +1 circumstance bonus to attack rolls against the target. DEFEND The lemure circles the commander and attacks any creature that comes near. It gains a +1 circumstance bonus to AC and saves. FETCH The lemure gains a +10–foot circumstance bonus to its Speed and attempts to get an object or person the commander singles out. It attacks anyone and anything that gets in the way. WORK The lemure performs drudge work dictated by the commander.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Fey","Gremlin","Aura","Will","Misfortune","Divination","Mental","Primal"],
+    "source": "Pugwampi",
+    "content": [
+      {
+        "name": "Unluck Aura",
+        "text": "20 feet. Creatures other than animals, gremlins, and gnolls in the aura become extremely unlucky (DC 16 Will save; creature must roll this Will save twice and take the worse result). On a successful save, the creature is temporarily immune to pugwampi unluck auras for 24 hours. On a failure, the creature must roll twice and take the worse result on all checks as long as it is within the aura.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Stride","Movement","Speed Bonus"],
+    "source": "Riding Pony",
+    "content": [
+      {
+        "name": "Gallop",
+        "text": "The riding pony Strides twice. It has a +10-foot circumstance bonus to its Speed during these Strides.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Swarm","Poison","Enfeebled"],
+    "source": "Spider Swarm",
+    "content": [
+      {
+        "name": "Spider Swarm Venom",
+        "text": "Saving Throw Fortitude DC 14; Maximum Duration 4 rounds; Stage 1 1 poison and enfeebled 1 (1 round); Stage 2 1d4 poison and enfeebled 1 (1 round).",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Air","Elemental","Arcane","Cone","Slashing","Basic Save","Reflex","Recharge"],
+    "source": "Air Mephit",
+    "content": [
+      {
+        "name": "Breath Weapon",
+        "text": "The air mephit breathes sand and grit in a 15-foot cone that deals 2d6 slashing damage to each creature within the area (DC 17 basic Reflex save). The air mephit can’t use Breath Weapon again for 1d4 rounds.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Aeon","Inevitable","Monitor","Electricity","Basic Save","Reflex","Stunned","Divine","Evocation"],
+    "source": "Arbiter",
+    "content": [
+      {
+        "name": "Electrical Burst",
+        "text": "The arbiter releases an electrical burst from its body that deals 3d6 electricity damage (DC 17 basic Reflex save). Following such a burst, the arbiter becomes stunned for 24 hours.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Grab","Constrict"],
+    "source": "Ball Python",
+    "content": [
+      {
+        "name": "Wrap in Coils",
+        "text": "Requirement A Medium or smaller creature is grabbed or restrained in the ball python’s jaws. Effect The ball python moves the creature into its coils, freeing its jaws to make attacks, then uses Constrict against the creature. The ball python’s coils can hold one creature.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Amphibious","Boggard","Humanoid","Movement","Swamp","Difficult Terrain"],
+    "source": "Boggard Scout",
+    "content": [
+      {
+        "name": "Swamp Stride",
+        "text": "A boggard scout ignores difficult terrain caused by swamp terrain features.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Amphibious","Boggard","Humanoid","Auditory","Emotion","Fear","Mental","Will"],
+    "source": "Boggard Scout",
+    "content": [
+      {
+        "name": "Terrifying Croak",
+        "text": "The boggard scout unleashes a terrifying croak. Any non-boggard within 30 feet becomes frightened 1 unless they succeed at a DC 17 Will save; those who critically succeed are temporarily immune for 1 minute.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Amphibious","Boggard","Humanoid","Movement","Immobilized"],
+    "source": "Boggard Scout",
+    "content": [
+      {
+        "name": "Tongue Grab",
+        "text": "If the boggard scout hits a creature with its tongue, that creature becomes grabbed by the boggard. Unlike with a normal grab, the creature isn’t immobilized, but it can’t move beyond the reach of the boggard’s tongue. A creature can sever the tongue by hitting AC 13 and dealing at least 2 slashing damage. Though this doesn’t deal any damage to the boggard, it prevents it from using its tongue Strike until it regrows its tongue, which takes a week.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Daemon","Fiend","Death","Divine","Necromancy","Religion","Healing","Ingest","Interact"],
+    "source": "Cacodaemon",
+    "content": [
+      {
+        "name": "Soul Lock",
+        "text": "Once per day, a cacodaemon can ingest the soul of a sentient creature within 30 feet that died within the last minute. When it does, the cacodaemon grows a fist-sized soul gem (Hardness 2, HP 8) in its gut and can regurgitate it at any time as an Interact action. Destroying the gem frees the soul within but does not return the deceased creature to life. The caster of a spell to return a creature to life whose soul is trapped within a soul gem must succeed at a DC 30 Religion check. On a success, the soul gem shatters and the creature is returned to life as normal for the spell. By using an Interact action, a fiend can ingest a soul gem it is holding, condemning the soul to the fiend’s home plane. The fiend gains fast healing 5 for 1 minute.",
+        "action": 3
+      }
+    ]
+  },
+  {
+    "tags": ["Daemon","Fiend","Disease","Stupefied","Fortitude"],
+    "source": "Cacodaemon",
+    "content": [
+      {
+        "name": "Cacodaemonia",
+        "text": "The cacodaemon can telepathically communicate with the afflicted creature at any distance on the same plane; Saving Throw DC 17 Fortitude; Stage 1 carrier (1 day); Stage 2 stupefied 1 (1 day); Stage 3 stupefied 2 (1 day)",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Daemon","Fiend","Concentrate","Divine","Polymorph","Transmutation"],
+    "source": "Cacodaemon",
+    "content": [
+      {
+        "name": "",
+        "text": "LIZARD Speed 20 feet; Melee jaws +8 (agile, finesse), Damage 1d8+1 piercing OCTOPUS size Small; Speed 20 feet, swim 30 feet; Melee tentacle +8 (finesse), Damage 1d8+1 bludgeoning plus Grab; Melee beak +8 (agile, finesse), Damage 1d6 piercing plus 2 poison SCORPION size Small; Speed 30 feet; Melee pincer +8 (agile, finesse), Damage 1d6+1 bludgeoning plus Grab; Melee stinger +8 (agile, finesse), Damage 1d6+1 piercing plus 1d4 poison",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Caligni","Humanoid","Curse","Enchantment","Occult","Mental","Clumsy","Will"],
+    "source": "Caligni Dancer",
+    "content": [
+      {
+        "name": "Dancer's Curse",
+        "text": "The caligni dancer touches a foe and curses it. If the target fails a DC 18 Will save, it gains clumsy 1 and stupefied 1. The target is then temporarily immune for 24 hours. These conditions persist until the curse is removed. The victim can attempt a new DC 18 Will save once per hour to end the curse.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Angel","Celestial","Concentrate","Divine","Polymorph","Transmutation"],
+    "source": "Cassisian",
+    "content": [
+      {
+        "name": "Change Shape",
+        "text": "A cassisian can take the appearance of a dove, a winged humanoid, a dog, or a fish. Normally, this doesn’t change its Speed or the attack and damage bonuses for its Strikes, but it might change the damage type Strikes deal (typically to bludgeoning). Any further changes for specific forms are noted below. DOG size Small; scent (imprecise) 30 feet, Speed 40 feet; Melee jaws +7, Damage 1d6+2 piercing plus Knockdown FISH swim Speed 30 feet",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Angel","Celestial","Concentrate","Divine","Evocation"],
+    "source": "Cassisian",
+    "content": [
+      {
+        "name": "Eye Beams",
+        "text": "The cassisian releases beams of heat or cold from its eyes, dealing 2d6 cold or fire damage (DC 17 basic Reflex save) to all creatures in a 15-foot line. It can’t use Eye Beams again for 1d4 rounds.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Angel","Celestial"],
+    "source": "Cassisian",
+    "content": [
+      {
+        "name": "Repository of Lore",
+        "text": "While the cassisian isn’t particularly intelligent, it has perfect memory and can remember everything it sees or hears. This allows it to attempt Lore checks on any topic, provided (at the GM’s discretion) the cassisian has encountered the topic in question before. The cassisian’s limited intellect often prevents it from acting upon its knowledge, making it a better resource than agent in matters of information use.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Catfolk","Humanoid","Movement","Stride","Charge","Strike"],
+    "source": "Catfolk Pouncer",
+    "content": [
+      {
+        "name": "Sudden Charge",
+        "text": "The catfolk pouncer Strides up to double their Speed. If the catfolk ends their movement within melee reach of at least one enemy, they can make a melee Strike against that enemy.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Catfolk","Humanoid","Fortune","Reflex"],
+    "source": "Catfolk Pouncer",
+    "content": [
+      {
+        "name": "Cat's Luck",
+        "text": "Trigger The catfolk pouncer fails or critically fails a Reflex saving throw. Frequency Once per day. Effect Reroll that saving throw and take the better result.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Gnome","Humanoid","Flat-Footed","Hidden","Undetected","Stealth"],
+    "source": "Deep Gnome Scout",
+    "content": [
+      {
+        "name": "Hidden Movement",
+        "text": "If the deep gnome scout starts its turn undetected or hidden to a creature, that creature is flat-footed against the deep gnome scout’s attacks until the end of the turn.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Drow","Humanoid","Elf","Strike","Melee","Attack Bonus","Persistent Damage","Bleed"],
+    "source": "Drow Fighter",
+    "content": [
+      {
+        "name": "Skewer",
+        "text": "The drow fighter Strikes with its rapier, and gains a +1 circumstance bonus to the attack roll. A creature damaged by the attack takes 1d6 persistent bleed damage.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Drow","Humanoid","Elf","Strike","Melee","Interact"],
+    "source": "Drow Fighter",
+    "content": [
+      {
+        "name": "Quick Draw",
+        "text": "The drow fighter draws a weapon using the Interact action, then Strikes with that weapon.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Duergar","Dwarf","Humanoid","Ranged","Bomb"],
+    "source": "Duergar Bombardier",
+    "content": [
+      {
+        "name": "Far Lobber",
+        "text": "The duergar bombardier has a range increment of 30 feet with their bombs instead of 20 feet.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Aquatic","Stunned","Melee","Critical Hit","Incapacitation","Strike","Fortitude"],
+    "source": "Electric Eel",
+    "content": [
+      {
+        "name": "Stunning Shock",
+        "text": "A creature critically hit by the electric eel’s tail must attempt a DC 17 Fortitude save. Critical Success The creature is unaffected. Success The creature is stunned 1. Failure The creature is stunned 2. Critical Failure The creature is stunned 3.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Ghoul","Undead","Manipulate","Adjacent","Healing","Consume","Corpse"],
+    "source": "Ghoul",
+    "content": [
+      {
+        "name": "Consume Flesh",
+        "text": "The ghoul is adjacent to the corpse of a creature that died within the last hour. Effect The ghoul devours a chunk of the corpse and regains 1d6 Hit Points. It can regain Hit Points from any given corpse only once.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Ghoul","Undead","Fortitude","Disease","Negative","Death"],
+    "source": "Ghoul",
+    "content": [
+      {
+        "name": "Ghoul Fever",
+        "text": "Saving Throw Fortitude DC 15; Stage 1 carrier with no ill effect (1 day); Stage 2 2d6 negative damage and regains half as many Hit Points from all healing (1 day); Stage 3 as stage 2 (1 day); Stage 4 2d6 negative damage and gains no benefit from healing (1 day); Stage 5 as stage 4 (1 day); Stage 6 dead, and rises as a ghoul the next midnight.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Ghoul","Undead","Incapacitation","Occult","Necromancy","Fortitude"],
+    "source": "Ghoul",
+    "content": [
+      {
+        "name": "Paralysis",
+        "text": "Any living, non-elf creature hit by a ghoul’s attack must succeed at a DC 15 Fortitude save or become paralyzed. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Ghoul","Undead","Movement","Reaction"],
+    "source": "Ghoul",
+    "content": [
+      {
+        "name": "Swift Leap",
+        "text": "The ghoul jumps up to half its Speed. This movement doesn’t trigger reactions.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Climb","Athletics"],
+    "source": "Giant Gecko",
+    "content": [
+      {
+        "name": "Uncanny Climber",
+        "text": "A giant gecko’s feet allow it to climb virtually any surface, no matter how slick or sheer. If a giant gecko attempts an Athletics check to climb and critically fails, it gets a failure instead.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Goblin","Humanoid","Movement","Step"],
+    "source": "Goblin Commando",
+    "content": [
+      {
+        "name": "Goblin Scuttle",
+        "text": "Trigger A goblin ally ends a move action adjacent to the commando. Effect The goblin commando Steps.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Mount","Command an Animal","Reflex","Prone","Bludgeoning"],
+    "source": "Goblin Dog",
+    "content": [
+      {
+        "name": "Buck",
+        "text": "Trigger A creature Mounts or uses the Command an Animal action while riding the monster. Effect The triggering creature must succeed at a Reflex saving throw against the listed DC or fall off the creature and land prone. If the save is a critical failure, the triggering creature also takes 1d6 bludgeoning damage in addition to the normal damage for the fall.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Grab"],
+    "source": "Goblin Dog",
+    "content": [
+      {
+        "name": "Irritating Dander",
+        "text": "A creature that hits the goblin dog with an unarmed attack, tries to Grapple it, or otherwise touches it is exposed to goblin pox.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Reaction","Step","Command an Animal"],
+    "source": "Goblin Dog",
+    "content": [
+      {
+        "name": "Juke",
+        "text": "A creature must be mounted on the goblin dog. Trigger The rider issues a command to the goblin dog. Effect The goblin dog Steps before following the command.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Disease","Fortitude","Sickened","Slowed"],
+    "source": "Goblin Dog",
+    "content": [
+      {
+        "name": "Goblin Pox",
+        "text": "Goblins and goblin dogs are immune to goblin pox. Saving Throw DC 17 Fortitude; Stage 1 sickened 1 (1 round); Stage 2 sickened 1 and slowed 1 (1 round); Stage 3 sickened 2 and can't reduce its sickened value below 1 (1 day).",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Manipulate","Adjacent"],
+    "source": "Goblin Dog",
+    "content": [
+      {
+        "name": "Scratch",
+        "text": "The goblin dog vigorously scratches itself, exposing all adjacent creatures to goblin pox.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Goblin","Humanoid","Will","Aura","Concentrate","Perception","Skill Penalty","Save Penalty"],
+    "source": "Goblin War Chanter",
+    "content": [
+      {
+        "name": "Goblin Song",
+        "text": "The war chanter sings annoying goblin songs, distracting foes with silly and repetitive lyrics. The chanter attempts a Performance check against the Will DCs of up to two enemies within 30 feet. This has the usual traits and restrictions for a Performance check. Critical Success The target takes a -1 status penalty to Perception checks and Will saves for 1 minute. Success As critical success, but the target is affected for only one round. Critical Failure The target is temporarily immune to Goblin Song for 1 hour.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Leshy","Plant","Concentrate","Polymorph","Primal","Transmutation"],
+    "source": "Gourd Leshy",
+    "content": [
+      {
+        "name": "Change Shape",
+        "text": "The gourd leshy transforms into a Small gourd-bearing plant. This ability otherwise uses the effects of tree shape.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Leshy","Plant","Reflex","Speed Penalty","Immobilized","Movement"],
+    "source": "Gourd Leshy",
+    "content": [
+      {
+        "name": "Ensnare",
+        "text": "When the gourd leshy damages a creature with a fist or seed Strike, vines lash out from the leshy (or seed) and wrap around the target’s limbs. The target must attempt a DC 17 Reflex save. On a failure, the target takes a –10-foot status penalty to its Speed for 1 round; on a critical failure, the target is immobilized for 1 round and the penalty to Speed lasts for 1 minute.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Fey","Sprite","Auditory","Emotion","Enchantment","Mental","Primal","Will","Flat-Footed","Speed Penalty","Slowed","Movement"],
+    "source": "Grig",
+    "content": [
+      {
+        "name": "Fiddle",
+        "text": " A grig can rub its legs together to create a catchy fiddling tune that compels others within 30 feet to dance about, with varying effects depending on a DC 18 Will save. A listener is temporarily immune for 10 minutes on a success, but otherwise, if the grig continues to Fiddle each round, the creature receives no additional saves. Success No effect. Failure Flat-footed and –10-foot status penalty to Speeds. Critical Failure As failure, and also slowed 1.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Goblin","Humanoid","Adjacent","AC Bonus","Save Bonus"],
+    "source": "Hobgoblin Soldier",
+    "content": [
+      {
+        "name": "Formation",
+        "text": "When it’s adjacent to at least two other allies, the hobgoblin soldier gains a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 to Reflex saves against area effects.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Attack","Movement","Reaction"],
+    "source": "Hunting Spider",
+    "content": [
+      {
+        "name": "Spring Upon Prey",
+        "text": "Requirement Initiative has not yet been rolled. Trigger A creature touches the hunting spider’s web while the spider is on it. Effect The hunting spider automatically notices the creature and Strides, Climbs, or Descends on a Web before it rolls initiative.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  
+  {
+    "tags": ["Animal","Move","Climb"],
+    "source": "Hunting Spider",
+    "content": [
+      {
+        "name": "Descend on Web",
+        "text": "The hunting spider moves straight down up to 40 feet, suspended by a web line. It can hang from the web or drop off. The distance it Descends on a Web doesn’t count for falling damage. A creature that successfully Strikes the web (AC 20, Hardness 3, 5 HP) severs it, causing the spider to fall.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Poison","Clumsy","Flat-Footed","Fortitude"],
+    "source": "Hunting Spider",
+    "content": [
+      {
+        "name": "Hunting Spider Venom",
+        "text": "Saving Throw Fortitude DC 16; Maximum Duration 6 rounds; Stage 1 1d10 poison and flat-footed (1 round); Stage 2 1d12 poison, clumsy 1, and flat-footed (1 round); Stage 3 2d6 poison, clumsy 2, and flat-footed (1 round).",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Immobilized","Ranged","Attack","Escape"],
+    "source": "Hunting Spider",
+    "content": [
+      {
+        "name": "Web Trap",
+        "text": "A creature hit by the hunting spider’s web attack is immobilized and stuck to the nearest surface until it Escapes (DC 17).",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Movement","Strike","Melee","Stride","Prone"],
+    "source": "Hyena",
+    "content": [
+      {
+        "name": "Drag",
+        "text": "The hyena makes a jaws Strike against a prone enemy. If it hits, in addition to dealing damage, the hyena Strides up to 10 feet, dragging the enemy along.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Movement","Adjacent","Damage Bonus"],
+    "source": "Hyena",
+    "content": [
+      {
+        "name": "Pack Attack",
+        "text": "The hyena deals an extra 1d4 damage to any creature that’s within reach of at least two of the hyena’s allies.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Devil","Fiend","Concentrate","Divine","Polymorph","Transmutation"],
+    "source": "Imp",
+    "content": [
+      {
+        "name": "Change Shape",
+        "text": "BOAR size Medium; scent (imprecise) 30 feet; Speed 40 feet; Melee tusk +9 (finesse), Damage 1d10–1 piercing GIANT SPIDER size Medium; Speed 25 feet, climb 25 feet; Melee fangs +9 (finesse, poison), Damage 1d6–1 piercing plus 1d4 poison RAT scent; Speed 20 feet; Melee jaws +9 (agile, finesse), Damage 1 piercing RAVEN scent; Speed 10 feet, fly 40 feet; Melee beak +9 (finesse), Damage 1 piercing",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Devil","Fiend","Concentrate","Divine","Healing","Necromancy"],
+    "source": "Imp",
+    "content": [
+      {
+        "name": "Diabolic Healing",
+        "text": "Frequency once per round. Effect The imp regains 1d6 Hit Points.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Devil","Fiend","Poison","Fortitude","Clumsy","Slowed"],
+    "source": "Imp",
+    "content": [
+      {
+        "name": "Imp Venom",
+        "text": "Saving Throw DC 16 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison and clumsy 1 (1 round); Stage 2 1d6 poison damage, clumsy 1, and slowed 1 (1 round)",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Devil","Fiend","Divine","Concentrate","Enchantment","Evil","Fortune"],
+    "source": "Imp",
+    "content": [
+      {
+        "name": "Infernal Temptation",
+        "text": "Frequency once per day. Effect The imp offers a non-fiend within 15 feet a bargain, granting a boon of good luck if the creature accepts. The boon lasts for 1 hour once accepted. If the creature dies while the boon is in place, its soul travels to Hell, where it is bound for eternity and unable to be raised or resurrected except by wish or similar magic. Once during the hour, the creature can roll an attack roll or saving throw twice and use the higher result.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Fey","Gremlin","Exploration","Interact","Curse","Primal","Transmutation"],
+    "source": "Jinkin",
+    "content": [
+      {
+        "name": "Tinker",
+        "text": "A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it’s also unobtrusive and can be performed while Hiding. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (DC 5 flat check or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Archon","Celestial","Concentrate","Divine","Transmutation","Combine"],
+    "source": "Lantern Archon",
+    "content": [
+      {
+        "name": "Gestalt",
+        "text": "Nine lantern archons can use this activity, all within 1 round of the first, to merge together to form a composite being for 7 rounds that appears as a glowing warrior of light. The gestalt has the base statistics of a legion archon (AC, saving throws, attacks, skills, Speeds, and so on) but the spells and special abilities of a lantern archon. Additionally, it has a ranged light ray Strike (+18 attack, Damage 3d4 fire and 3d4 good), and the bonus from its Lantern of Hope increases to +3. When the gestalt separates, its remaining Hit Points are divided evenly among the lantern archons, and if the gestalt had fewer than 9 HP, some of the lantern archons die.",
+        "action": 3
+      }
+    ]
+  },
+  {
+    "tags": ["Archon","Celestial","Concentrate","Divine","Enchantment","Mental","Damage Bonus","Save Bonus"],
+    "source": "Lantern Archon",
+    "content": [
+      {
+        "name": "Lantern of Hope",
+        "text": "The lantern archon shines as a beacon of hope. Good allies within 30 feet gain a +1 status bonus to damage rolls and to saving throws against crushing despair.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Humanoid","Lizardfolk","Breathing"],
+    "source": "Lizardfolk Defender",
+    "content": [
+      {
+        "name": "Deep Breath",
+        "text": "A lizardfolk defender can hold their breath for 175 rounds (17-1/2 minutes).",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Humanoid","Lizardfolk","Difficult Terrain","Aquatic","Flat-Footed","Swim"],
+    "source": "Lizardfolk Defender",
+    "content": [
+      {
+        "name": "Terrain Advantage",
+        "text": "Non-lizardfolk creatures in difficult terrain and non-lizardfolk creatures that are in water and lack a swim Speed are flat-footed to the lizardfolk defender.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Azata","Celestial","Burst","Chaotic","Good","Light","Reflex","Basic Save","Ranged","Recharge"],
+    "source": "Lyrakien",
+    "content": [
+      {
+        "name": "Starlight Blast",
+        "text": "The lyrakien unleashes a blast of holy starlight in a 5-foot burst centered on itself. Creatures in the area take 1d6 chaotic damage and 1d6 good damage (DC 17 basic Reflex save). The lyrakien can’t use Starlight Blast or its starlight ray ranged attack for 1d4 rounds.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Aquatic","Humanoid","Merfolk","Swim","Strike","Movement"],
+    "source": "Merfolk Warrior",
+    "content": [
+      {
+        "name": "Aquatic Dash",
+        "text": "The merfolk warrior swims and attacks in one of two patterns. They either Swim twice and Strike one opponent at the end of their movement, or Swim once and Strike at any point during their movement.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Amphibious","Fey","Nymph","Water","Concentrate","Healing","Necromancy","Primal"],
+    "source": "Naiad",
+    "content": [
+      {
+        "name": "Water Dependent",
+        "text": "A naiad bonds to a spring, pool, pond, or similar-sized water feature. While within 300 feet of her bonded body of water, she can use her innate tidal surge at will. She doesn’t recover Hit Points or reduce the drained condition when resting beyond that range. Unlike most other nymphs, she doesn’t suffer penalties from being apart from her bonded body of water. A naiad can perform a 24-hour ritual to bond herself to a new body of water.",
+        "action": "Passive"
+      },
+      {
+        "name": "Water Healing",
+        "text": "While within her bonded body of water (see water dependent above), the naiad heals 1 Hit Point every 10 minutes.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Monitor","Psychopomp","Concentrate","Divine","Polymorph","Transmutation"],
+    "source": "Nosoi",
+    "content": [
+      {
+        "name": "Change Shape",
+        "text": "The nosoi takes the appearance of a raven or songbird. This doesn’t change its Speed or its attack and damage modifiers with its Strikes.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Monitor","Psychopomp","Auditory","Concentrate","Divine","Enchantment","Incapacitation","Mental","Emanation","Will","Fascinated"],
+    "source": "",
+    "content": [
+      {
+        "name": "Haunting Melody",
+        "text": "The nosoi croons an entrancing song. Each living or undead creature within a 60-foot emanation must attempt a DC 18 Will save. The effect lasts for 1 round, but a nosoi can use this ability again on subsequent rounds to extend the duration by 1 round for all affected creatures. A creature that succeeds at any save is temporarily immune for 24 hours. Despite being a mental effect, this ability affects mindless undead. Psychopomps are immune to this ability. Failure The creature is fascinated. Critical Failure As failure, and the creature must spend each of its actions on its turn to move closer to the nosoi as expediently as possible while avoiding obvious dangers. If a fascinated creature is adjacent to the nosoi, it stays still and doesn’t act. If the creature is attacked, the fascination ends.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Monitor","Psychopomp","Negative","Positive","Damage Bonus"],
+    "source": "Nosoi",
+    "content": [
+      {
+        "name": "Spirit Touch",
+        "text": "A nosoi’s Strikes affect incorporeal creatures as though etched with a ghost touch property rune and deal 1d6 negative damage to living creatures or 1d6 positive damage to undead.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Mindless","Undead","Zombie","Disease","Necromancy","Fortitude","Negative","Spawn"],
+    "source": "Plague Zombie",
+    "content": [
+      {
+        "name": "Zombie Rot",
+        "text": "An infected creature can’t heal damage it takes from zombie rot until it has been cured of the disease. Saving Throw DC 18 Fortitude; Stage 1 carrier with no ill effect (1 day); Stage 2 1d6 negative damage (1 day); Stage 3 1d6 negative damage (1 day); Stage 4 1d6 negative damage (1 day); Stage 5 dead, rising as a plague zombie immediately",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Mindless","Undead","Zombie","Melee","Strike","Grab","Piercing"],
+    "source": "Plague Zombie",
+    "content": [
+      {
+        "name": "Jaws",
+        "text": " Requirement The plague zombie has a creature grabbed or restrained. Effect The plague zombie makes a jaws unarmed melee Strike against the grabbed or restrained creature with an attack modifier of +9 that deals 1d12+4 piercing damage. A creature damaged by the jaws is exposed to zombie rot.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Demon","Fiend","Mental","Weakness"],
+    "source": "Quasit",
+    "content": [
+      {
+        "name": "Virtue Aversion",
+        "text": "The quasit’s link to a mortal soul gave it birth, but it presents a vulnerability. Once per round, a creature can present an object related to something virtuous or good in the life of the quasit’s creator (such as a beloved daughter’s doll) as an Interact action to automatically deal the quasit 2d6 mental damage.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Demon","Fiend","Concentrate","Divine","Polymorph","Transmutation"],
+    "source": "Quasit",
+    "content": [
+      {
+        "name": "Change Shape",
+        "text": "BAT echolocation 40 feet; Speed 15 feet, fly Speed 30 feet; Melee fangs +7, Damage 1d4–1 piercing; Melee wing +7 (agile), Damage 1d4–1 bludgeoning CENTIPEDE Speed 10 feet, climb 10 feet; Melee mandibles +7 (poison), Damage 1 piercing plus 1d4 poison TOAD scent (imprecise) 30 feet; Speed 5 feet; Melee jaws +7, Damage 1 bludgeoning WOLF size Medium; scent (imprecise) 30 feet; Speed 40 feet, climb 10 feet; Melee jaws +7, Damage 1d10–1 piercing plus Knockdown",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Demon","Fiend","Poison","Fortitude","Slowed"],
+    "source": "Quasit",
+    "content": [
+      {
+        "name": "Quasit Venom",
+        "text": "Saving Throw DC 17 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison (1 round); Stage 2 As stage 1; Stage 3 1d6 poison and slowed 1 (1 round)",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Aberration","Aquatic","Reaction","Death","Strike"],
+    "source": "Reefclaw",
+    "content": [
+      {
+        "name": "Death Frenzy",
+        "text": "Trigger The reefclaw is reduced to 0 Hit Points. Effect The reefclaw makes a claw Strike before dying.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Aberration","Aquatic","Poison","Fortitude","Enfeebled"],
+    "source": "Reefclaw",
+    "content": [
+      {
+        "name": "Reefclaw Venom",
+        "text": "Saving Throw DC 17 Fortitude; Maximum Duration 4 rounds; Stage 1 1d6 poison damage and enfeebled 1 (1 round), Stage 2 1d6 poison damage and enfeebled 2 (1 round).",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Mindless","Ooze","Recharge","Emanation","Reflex","Acid","Prone","Speed Penalty","Interact"],
+    "source": "Sewer Ooze",
+    "content": [
+      {
+        "name": "Filth Wave",
+        "text": "Frequency once per minute; Effect The sewer ooze unleashes a wave of filth, covering all creatures within a 20-foot emanation. Each creature in the area must succeed at a DC 17 Reflex save or take 1d4 acid damage and take a -10-foot penalty to its Speeds for 1 minute (on a critical failure, the creature also falls prone). A creature can spend and Interact action to clean someone off, decreasing the Speed penalty by 5 feet with each action.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Swarm","Persistent Damage","Bleed","Reflex","Basic Save"],
+    "source": "Vampire Bat Swarm",
+    "content": [
+      {
+        "name": "Blood Feast",
+        "text": "Each enemy in the bat swarm’s space takes 1d4 piercing damage (DC 16 basic Reflex save). Creatures that fail this save also take 1 persistent bleed damage.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Dinosaur","Stride","Strike","Attack Bonus"],
+    "source": "Velociraptor",
+    "content": [
+      {
+        "name": "Leaping Charge",
+        "text": "The velociraptor Strides up to 10 feet, ignoring difficult terrain as it leaps over obstacles. It then makes a Strike with its talons, gaining a +1 circumstance bonus to its attack roll.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Monitor","Protean","Divination","Divine","Prediction","Senses"],
+    "source": "Voidworm",
+    "content": [
+      {
+        "name": "Entropy Sense",
+        "text": "A voidworm can anticipate the most likely presence of a creature through a supernatural insight into chaotic probabilities and chance. This grants it the ability to sense creatures within the listed range. A creature under the effects of nondetection or that is otherwise shielded from divinations and predictions cannot be noticed via entropy sense.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Monitor","Protean","Divine","Transmutation","Damage Resistance"],
+    "source": "Voidworm",
+    "content": [
+      {
+        "name": "Protean Anatomy",
+        "text": "A voidworm’s vital organs shift and change shape and position constantly. Immediately after the voidworm takes acid, electricity, or sonic damage, it gains the listed amount of resistance to that damage type. This lasts for 1 hour or until the next time the protean takes damage of one of the other types (in which case its resistance changes to match that type), whichever comes first. The voidworm is immune to polymorph effects unless it is a willing target. If blinded or deafened, the voidworm automatically recovers at the end of its next turn as new sensory organs grow to replace the compromised ones.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Monitor","Protean","Concentrate","Divine","Polymorph","Transmutation"],
+    "source": "Voidworm",
+    "content": [
+      {
+        "name": "Change Shape",
+        "text": "The voidworm takes on the appearance of a Tiny animal. This doesn’t change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Monitor","Protean","Divine","Emotion","Enchantment","Mental","Stupefied","Will"],
+    "source": "Voidworm",
+    "content": [
+      {
+        "name": "Confounding Lash",
+        "text": "A creature hit by the voidworm’s tail Strike is stupefied 1 for 1 round (stupefied 2 on a critical hit). A successful DC 16 Will save negates this effect and grants temporary immunity to confounding lash for 1 minute.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Aquatic","Elemental","Water","Emanation","Fire"],
+    "source": "Water Mephit",
+    "content": [
+      {
+        "name": "Drench",
+        "text": "The water mephit puts out all fires in a 5-foot emanation. The mephit extinguishes all non-magical fires automatically and attempts to counteract magical fires (+7 counteract modifier).",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Aura","Olfactory","Humanoid","Xulgath","Speed Penalty","Sickened","Save Penalty"],
+    "source": "Xulgath Warrior",
+    "content": [
+      {
+        "name": "Stench",
+        "text": "30 feet. A creature that enters the area must attempt a DC 16 Fortitude save. On a failure, the creature is sickened 1, and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths’ stenches for 1 minute.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Construct","Mindless","Bloodied","AC Penalty"],
+    "source": "Animated Armor",
+    "content": [
+      {
+        "name": "Construct Armor",
+        "text": " Like normal objects, an animated armor has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness. Once an animated armor is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 13.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Attack Bonus","Stride","Strike","Movement"],
+    "source": "Boar",
+    "content": [
+      {
+        "name": "Boar Charge",
+        "text": "The boar Strides twice and then makes a tusk Strike. As long as it moved at least 20 feet, it gains a +2 circumstance bonus to its attack roll.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Goblin","Humanoid","Undetected","Grab","Stride"],
+    "source": "Bugbear Thug",
+    "content": [
+      {
+        "name": "Bushwhack",
+        "text": "The bugbear thug Strides up to 10 feet and attempts to Grapple a creature they’re undetected by. If they succeed, they also deal fist damage to that creature.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Goblin","Humanoid","Grab","Damage Bonus"],
+    "source": "Bugbear Thug",
+    "content": [
+      {
+        "name": "Mauler",
+        "text": "The bugbear thug gains a +3 circumstance bonus to damage rolls against creatures they have grabbed.",
+        "action": "Passive"
+      }
+    ]
+  },
+  
+  {
+    "tags": ["Caligni","Humanoid","Light","Death","Blind","Fortitude","Emanation"],
+    "source": "Caligni Creeper",
+    "content": [
+      {
+        "name": "Death Flash",
+        "text": "When the caligni creeper dies, their body combusts in a flash of bright light. All creatures in a 10-foot emanation must succeed at a DC 17 Fortitude save or be blinded for 1d6 rounds. Creatures with light blindness who successfully save are still blinded for 1 round. The creeper’s gear and treasure are left in a pile where they died. As this isn’t a magical effect, the light has no effect within magical darkness.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Attack","Strike","Attack Bonus","Grab","Prone"],
+    "source": "Crocodile",
+    "content": [
+      {
+        "name": "Death Roll",
+        "text": "Requirement The crocodile must have a creature grabbed. Effect The crocodile tucks its legs and rolls rapidly, twisting its victim. It makes a jaws Strike with a +2 circumstance bonus to the attack roll against the grabbed creature. If it hits, it also knocks the creature prone. If it fails, it releases the creature.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Stealth","Undetected","Movement","Swim","Strike","Flat-Footed"],
+    "source": "Crocodile",
+    "content": [
+      {
+        "name": "Aquatic Ambush",
+        "text": "The monster is hiding in water and a creature that hasn’t detected it is within the listed number of feet. Effect The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is flat-footed against this Strike.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Dinosaur","Stride","Strike"],
+    "source": "Deinonychus",
+    "content": [
+      {
+        "name": "Darting Attack",
+        "text": "The deinonychus Strides up to 10 feet and then makes a Strike, or makes a Strike and then Strides up to 10 feet.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Dinosaur","Flat-Footed","Bleed"],
+    "source": "Deinonychus",
+    "content": [
+      {
+        "name": "Predator's Advantage",
+        "text": "Bleeding creatures are flat-footed to the deinonychus.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Dero","Humanoid","Encumbered","AC Bonus"],
+    "source": "Dero Stalker",
+    "content": [
+      {
+        "name": "Nimble Dodge",
+        "text": " Requirements The dero stalker is not encumbered. Trigger A creature targets the dero with an attack and the dero can see the attacker. Effect The dero dodges out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Dhampir","Humanoid","Human","Drained","HP Reduction"],
+    "source": "Dhampir Wizard",
+    "content": [
+      {
+        "name": "Blood of the Night",
+        "text": "The dhampir’s penalty and Hit Point reduction from the drained condition are reduced as though the condition value were 1 lower.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Duergar","Dwarf","Humanoid","Aura","Attack Bonus","Damage Bonus"],
+    "source": "Duergar Taskmaster",
+    "content": [
+      {
+        "name": "Take Them Down!",
+        "text": "The duergar taskmaster smashes their maul into the ground and invokes Droskar's name to rally their allies to action. All allied duergars of equal or lower level that are within 20 feet of the duergar taskmaster gain a +1 status bonus to attack rolls and damage rolls until the end of the duergar taskmaster's next turn.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Duergar","Dwarf","Humanoid","Illusion"],
+    "source": "Duergar Taskmaster",
+    "content": [
+      {
+        "name": "Iron Mind",
+        "text": "Duergar taskmasters automatically disbelieve all illusions of 1st level or lower.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
     "tags": [],
     "source": "",
     "content": [
@@ -516,6 +1591,2024 @@
       }
     ]
   },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  {
+    "tags": [],
+    "source": "",
+    "content": [
+      {
+        "name": "",
+        "text": "",
+        "action": ""
+      }
+    ]
+  },
+  
   {
     "tags": [],
     "source": "",

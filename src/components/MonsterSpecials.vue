@@ -14,7 +14,7 @@
               v-for="(text,j) in item.content"
               :key="j"
             >
-              <h2>{{ text.name }} - {{ item.source }}</h2>
+              <h2>{{ text.name }} - {{ item.source }} - {{ text.action }}</h2>
               <p>{{ text.text }}</p>
             </div>
             <div>
