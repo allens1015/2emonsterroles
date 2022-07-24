@@ -38,11 +38,9 @@
 import monsterRoles from "../models/monsterRoles";
 import monsterSpecials from "../assets/monsterSpecials.json";
 import localMaps from "../assets/localMaps.json";
-// import InputEntry from "./InputEntry";
 
 export default ({
-  name: "OptionSelections",  
-  // components: { InputEntry },
+  name: "OptionSelections",
   mounted() {
     monsterRoles.getDistinctTags()
   },
