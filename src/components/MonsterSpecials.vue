@@ -60,7 +60,7 @@ export default ({
     selectedSpecials() {
       const filteredItems = [];
       monsterSpecials.forEach(special => {
-        if(monsterRoles.comboboxContents.every(selectedTag => special.tags.includes(selectedTag))) {
+        if(monsterRoles.comboboxContents.every(selectedTag => special.tags.includes(selectedTag)) && special.tags.length > 0) {
           special.tags = special.tags.sort();
           filteredItems.push(special);
         }
