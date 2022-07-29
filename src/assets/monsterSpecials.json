@@ -1542,322 +1542,392 @@
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Damaged","Reaction","Strike","Adjacent","Melee"],
+    "source": "Giant Bat",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Wing Thrash",
+        "text": " Trigger An adjacent enemy damages the giant bat. Effect The bat makes one or two wing Strikes—one against the triggering creature and one against another adjacent creature.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Grab","Escape","Reaction","Piercing"],
+    "source": "Giant Monitor Lizard",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Gnashing Grip",
+        "text": "Trigger A creature grabbed by the giant monitor lizard’s jaws fails a check to Escape. Effect The giant monitor lizard’s jaws deal 1d6 piercing damage and the triggering creature is exposed to monitor lizard venom.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Poison","Fortitude","Enfeebled"],
+    "source": "Giant Monitor Lizard",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Monitor Lizard Venom",
+        "text": "Saving Throw DC 17 Fortitude; Maximum Duration 6 rounds; Stage 1 enfeebled 1 (1 round); Stage 2 1d6 poison damage and enfeebled 2 (1 round)",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Reaction","Strike","Reach","Melee"],
+    "source": "Giant Viper",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Coiled Opportunity",
+        "text": "As Attack of Opportunity, but the snake can use this reaction only if it’s Coiled.",
+        "action": "Reaction"
+      },
+      {
+        "name": "Coil",
+        "text": "The giant viper uses an action to coil itself, increasing its reach with its fangs from 5 to 10 feet. After the giant viper Strikes with its fangs, it becomes uncoiled.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Poison","Fortitude","Drained"],
+    "source": "Giant Viper",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Giant Viper Venom",
+        "text": "Saving Throw DC 17 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison (1 round); Stage 2 1d6 poison and drained 1.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Gnoll","Humanoid","Movement","Difficult Terrain","Step","Stride"],
+    "source": "Gnoll Hunter",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Rugged Travel",
+        "text": "A gnoll ignores the first square of difficult terrain it moves into each time it Steps or Strides.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Kobold","Arcane","Illusion","Manipulate","Move","Movement","Recharge","Adjacent","Stride","Somatic"],
+    "source": "Kobold Dragon Mage",
     "content": [
       {
         "name": "",
-        "text": "",
-        "action": ""
+        "text": "Frequency once per hour; Requirements The kobold dragon mage is adjacent to at least one enemy. Effect The dragon mage creates an illusion of itself in its square and then becomes invisible (with the effects of a 2nd-level invisibility spell) for 1d4 rounds. The dragon mage can move up to half its Speed, but it must end its movement in a space that's not adjacent to any enemeies. This is a 1st-level spell that requires a somatic component.",
+        "action": 3
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Kobold","Damage Resistance","Acid","Electricity","Fire","Poison","Cold"],
+    "source": "Kobold Dragon Mage",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Dragonscaled",
+        "text": "A kobold dragon mage’s resistance depends on the color of its scales: Black acid 5, Blue electricity 5, Green poison 5, Red fire 5, White cold 5.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Stride","Strike","Movement","Stealth","Hidden"],
+    "source": "Leopard",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Pounce",
+        "text": "The leopard Strides and makes a Strike at the end of that movement. If the leopard began this action hidden, it remains hidden until after this ability's Strike.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Strike","Grab"],
+    "source": "Leopard",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Maul",
+        "text": "The leopard makes two claw Strikes against a creature it has grabbed. Both count toward its multiple attack penalty, but the penalty increases only after both attacks are made.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Merfolk","Aquatic","Humanoid","Divine","Evocation","Water","Breathing","Fortitude","Immobilized"],
+    "source": "Merfolk Wavecaller",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Hydraulic Asphyxiation",
+        "text": "Requirement The target is fully submerged in water, within 30 feet of the merfolk wavecaller, and holding its breath. Effect The merfolk wavecaller commands the tides to crush their foe's throat, rooting the target in place and forcing it to choke up precious air. The target must succeed at a DC 18 Fortitude save or become immobilized for 1 round and immediately lose 1d4 actions' worth of air (or twice that on a critical failure).",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Orc","Auditory","Concentrate","Emotion","Mental","Attack Bonus","Damage Bonus"],
+    "source": "Orc Warchief",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Battle Cry",
+        "text": "Bellowing mightily, the warchief gives themself and all orc allies within 60 feet a +1 status bonus to attack and damage rolls until the start of the orc warchief’s next turn.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Movement","Fly","Strike"],
+    "source": "Pteranodon",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Swoop",
+        "text": "The pteranodon Flies up to its Speed and makes one beak Strike at any point during that movement.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Amphibious","Humanoid","Sea Devil","Mental","Telepathy"],
+    "source": "Sea Devil Scout",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Shark Commune",
+        "text": "The sea devil can communicate telepathically with sharks within range. It can communicate only simple concepts like “come,” “guard,” or “attack.”",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
+    "tags": ["Amphibious","Humanoid","Sea Devil","Rage","Bleed","Attack Bonus","Damage Bonus","Temporary HP","AC Penalty","Flat-Footed","Persistent Damage","Critical Hit"],
     "source": "",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Blood Frenzy",
+        "text": "Requirements The sea devil is not fatigued or already in a frenzy. Trigger The sea devil deals bleed damage to a living creature. Effect The sea devil flies into a frenzy that lasts 1 minute. While frenzied, the sea devil gains a +1 status bonus to attack rolls with its claws and jaws, gains a +4 status bonus to damage rolls with its claws and jaws, gains 7 temporary HP until the end of the frenzy, and takes a –2 status penalty to AC. The sea devil can’t voluntarily stop its frenzy. After its frenzy, the sea devil is fatigued.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
+    "tags": ["Amphibious","Humanoid","Sea Devil","Piercing","Slashing","Bleed","Flat-Footed","Persistent Damage","Critical Hit"],
     "source": "",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Bloodletting",
+        "text": "When the sea devil deals piercing or slashing damage, it also deals 1d4 persistent bleed damage if the target was flat-footed or if the attack was a critical hit.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Arcane","Emotion","Mental","Strike","Will","Sickened"],
+    "source": "Sinspawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sinful Bite",
+        "text": "A creature hit by the jaws of a sinspawn must attempt a DC 18 Will save as it is assailed by sinful thoughts. CRITICAL SUCCESS Unaffected. SUCCESS Sickened 1. FAILURE Sickened 2. CRITICAL FAILURE Sickened 2 plus an additional penalty, determined by the sinspawn’s sin, while it remains sickened.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Strike","Will","Enfeebled"],
+    "source": "Envyspawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sinful Bite",
+        "text": "Creatures that critically fail their saves against an envyspawn’s sinful bite are enfeebled 2 for 1 minute.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Strike","Will","Drained"],
+    "source": "Gluttonyspawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sinful Bite",
+        "text": "Creatures that critically fail their saves against a gluttonyspawn’s sinful bite are drained 1.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Strike","Will","Clumsy"],
+    "source": "Greedspawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sinful Bite",
+        "text": "Creatures that critically fail their saves against a greedspawn’s sinful bite are clumsy 2 for 1 minute.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Strike","Will","Stupefied"],
+    "source": "Lustspawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sinful Bite",
+        "text": "Creatures that critically fail their saves against a lustspawn’s sinful bite are stupefied 2 for 1 minute.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Strike","Will","Enfeebled","Clumsy"],
+    "source": "Pridespawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sinful Bite",
+        "text": "Creatures that critically fail their saves against a pridespawn’s sinful bite are clumsy 1 and enfeebled 1 for 1 minute.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Strike","Will","Speed Penalty"],
+    "source": "Slothspawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sinful Bite",
+        "text": "Creatures that critically fail their saves against a slothspawn’s sinful bite take a –10-foot status penalty to their Speeds for 1 minute.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Strike","Will","Enfeebled","Drained"],
+    "source": "Wrathspawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sinful Bite",
+        "text": "Creatures that critically fail their saves against a wrathspawn’s sinful bite are drained 1 as well as enfeebled 1 for 1 minute.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Olfactory","Imprecise Sense"],
+    "source": "Sinspawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sin Scent",
+        "text": "A sinspawn can smell creatures that reflect its sin, as the scent ability. The GM determines which creatures are appropriately sinful.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Mindless","Skeleton","Undead","Movement","Command an Animal"],
+    "source": "Skeletal Horse",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Undead Steed",
+        "text": "Undead and creatures allied with them can Command a skeletal steed without needing to attempt a skill check.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Emanation","Uneven Ground","Difficult Terrain","Acrobatics","Balance"],
+    "source": "Slurk",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Belly Grease",
+        "text": "The slurk extrudes a slippery grease from its ventral glands to coat the floor under it and in a 5-foot emanation, turning the affected area into uneven ground for 10 minutes, after which it dries to a putrid crust. The DC to Balance across the slime is 18.",
+        "action": 3
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Clumsy","Speed Penalty","Interact"],
+    "source": "Slurk",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Entangling Slime",
+        "text": "A creature struck by a slurk’s slime squirt becomes clumsy 1 and takes a –5-foot penalty to Speed for 1 hour or until the slime is removed. The slime can be removed with a total of three Interact actions by the entangled creature or creatures adjacent to the creature. These actions don’t need to be consecutive or made by the same creature.",
+        "action": "Passive"
       }
     ]
   },
-  
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Construct","Soulbound","Innate Spells","Alignment"],
+    "source": "Soulbound Doll",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Innate Spells",
+        "text": "A soulbound doll's additional 3rd-level innate spell depends on its alignment, as listed below. Lawful Good: zone of truth; Neutral Good: heroism; Chaotic Good: heal; Lawful Neutral: nondetection; Neutral: wall of thorns; Chaotic Neutral: grease; Lawful Evil: chilling darkness; Neutral Evil: harm; Chaotic Evil: vampiric touch",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Humanoid","Tengu","Incapacitation","Strike","Critical Hit","Fortitude","Blind","Reaction"],
+    "source": "Tengu Sneak",
+    "content": [
+      {
+        "name": "Go for the Eyes",
+        "text": "Trigger The tengu critically hits with a beak Strike. Effect The tengu attempts to peck out its victim’s eyes. The target must attempt a DC 17 Fortitude save. SUCCESS Unaffected. FAILURE Blinded for 1 round. CRITICAL FAILURE Blinded until healed to maximum HP.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Beast","Reaction","Strike","Adjacent"],
+    "source": "Warg",
+    "content": [
+      {
+        "name": "Avenging Bite",
+        "text": "Trigger A creature within reach of the warg’s jaws attacks one of the warg’s allies. Effect The warg makes a jaws Strike against the triggering creature.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Beast","Humanoid","Human","Werecreature","Curse","Necromancy","Primal","Fortitude"],
+    "source": "Wererat",
+    "content": [
+      {
+        "name": "Curse of the Wererat",
+        "text": "This curse affects only humanoids. Saving Throw DC 18 Fortitude save. On each full moon, the cursed creature must succeed at another Fortitude save or turn into a wererat until dawn. The creature is under the GM’s control and goes on a rampage for half the night before falling unconscious until dawn.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Beast","Humanoid","Human","Werecreature","Polymorph","Primal","Transmutation","Size Increase","Reach","Damage Bonus","Fatigued"],
+    "source": "Wererat",
+    "content": [
+      {
+        "name": "Moon Frenzy",
+        "text": "When a full moon appears in the night sky, the wererat must enter hybrid form, can’t Change Shape thereafter, becomes one size larger, increases its reach by 5 feet, and increases the damage of its jaws by 2. When the moon sets or the sun rises, the wererat returns to humanoid form and is fatigued for 2d4 hours.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Humanoid","Xulgath","Olfactory"],
+    "source": "Xulgath Skulker",
+    "content": [
+      {
+        "name": "Stench Suppression",
+        "text": "A xulgath skulker can suppress its stench aura as a free action to better hide its presence. The skulker can resume its stench aura as a free action.",
+        "action": "Free"
+      }
+    ]
+  },
+  {
+    "tags": ["Mindless","Undead","Zombie","Slowed","Permanent","Reaction"],
+    "source": "Zombie Brute",
+    "content": [
+      {
+        "name": "Slow",
+        "text": "A zombie is permanently slowed 1 and can’t use reactions.",
+        "action": "Passive"
       }
     ]
   },
