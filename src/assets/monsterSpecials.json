@@ -2532,145 +2532,145 @@
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Plant","Stride","Strike","Push","Shove","Shield"],
+    "source": "Arboreal Warden",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Shield Push",
+        "text": "The arboreal warden Strides and then makes a shield bash Strike. If the attack hits, the target is pushed 10 feet.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Plant","Weakness","Damage","Axe"],
+    "source": "Arboreal Warden",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Axe Vulnerability",
+        "text": "An arboreal warden takes 5 additional damage from axes.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Caligni","Humanoid","Strike"],
+    "source": "Caligni Stalker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Double Slice",
+        "text": "The caligni stalker makes two Strikes against the same target, one with each of their shortswords. The stalker combines the damage of any attacks that hit and applies precision damage, resistances, and weaknesses only once. Both attacks count toward the stalker’s multiple attack penalty, but the penalty increases only after both attacks.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Caligni","Humanoid","Auditory","Step","Movement","Recharge"],
+    "source": "Caligni Stalker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Encircling Command",
+        "text": "Each caligni creeper within 30 feet of the stalker can Step. Each creeper can benefit from Encircling Command only once per round.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Stride","Strike","Attack Bonus","Charge","Reflex","Prone"],
+    "source": "Daeodon",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Daeodon Charge",
+        "text": "The daeodon Strides twice and then makes a tusk Strike. As long as it moved at least 20 feet, it gains a +2 circumstance bonus to its attack roll. A Medium or smaller creature struck by this attack must succeed at a DC 19 Reflex save or be knocked prone by the force of the blow.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Duskwalker","Human","Humanoid","Skill Bonus","AC Bonus"],
+    "source": "Duskwalker Ghost Hunter",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Hunt Prey",
+        "text": "The duskwalker designates as its prey a single creature that it can see and hear or that it is Tracking. It gains a +2 circumstance bonus to Perception checks when it Seeks its prey and a +2 circumstance bonus to Survival checks when it Tracks its prey. It also ignores the penalty for making ranged attacks within its second range increment against its prey. Lastly, it gains a +2 circumstance bonus to Deception checks, Intimidation checks, and Stealth checks against its prey and to any check to Recall Knowledge about its prey, as well as a +1 circumstance bonus to AC against its prey’s attacks. The duskwalker can have only one prey designated at a time.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Duskwalker","Human","Humanoid","Strike","Bonus Attacks","Recharge"],
+    "source": "Duskwalker Ghost Hunter",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Hunted Shot",
+        "text": "Frequency Once per round; Effect The duskwalker makes two longbow Strikes against its hunted prey. If both Strikes hit, combine their damage for the purpose of resistances and weaknesses.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Concentrate","Occult","Polymorph","Transmutation","Deception","Skill Bonus"],
+    "source": "Faceless Stalker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Assume Form",
+        "text": "The faceless stalker spends 10 minutes reshaping its appearance to take on the shape of any Small or Medium humanoid. It gains a +4 circumstance bonus to Deception checks to pass as that creature.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Drained","Unconscious","Adjacent"],
+    "source": "Faceless Stalker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Blood Nourishment",
+        "text": "The faceless stalker uses its three-pronged tongue to drink the blood of an adjacent restrained or unconscious creature. The creature gains drained 1.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Squeeze","Movement","Difficult Terrain"],
+    "source": "Faceless Stalker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Compression",
+        "text": "When the faceless stalker successfully Squeezes, it moves through the tight space at full speed. Narrow confines are not difficult terrain for a faceless stalker.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Damage Bonus","Attack Bonus","Skill Bonus","Save Bonus"],
+    "source": "Faceless Stalker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Revert Form",
+        "text": "Requirements The faceless stalker is in an assumed form. Effect The faceless stalker resumes its true form. Until the start of its next turn, it gains a +2 status bonus to attack rolls, damage rolls, saving throws, and skill checks.",
+        "action": "Free"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Azata","Celestial","Divine","Emotion","Enchantment","Mental","Attack Bonus","Temporary HP","Fatigued","Fortitude"],
+    "source": "Gancanagh",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Invigorating Passion",
+        "text": "The gancanagh embraces or kisses a willing creature, infusing that creature with their invigorating passion. The creature gains a +1 status bonus to attack rolls and 10 temporary Hit Points for 10 minutes. After that time, the target becomes fatigued for 10 minutes unless they succeed at a DC 21 Fortitude save.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Azata","Celestial","Save Penalty"],
+    "source": "Gancanagh",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Vulnerable to Smoke",
+        "text": "A gancanagh’s lungs can’t tolerate smoke. They take a –2 circumstance penalty to saving throws against effects that create some form of smoke.",
+        "action": "Passive"
       }
     ]
   },
