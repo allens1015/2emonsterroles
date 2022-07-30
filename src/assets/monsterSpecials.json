@@ -1283,7 +1283,7 @@
     ]
   },
   {
-    "tags": ["Animal","Dinosaur","Stride","Strike","Attack Bonus"],
+    "tags": ["Animal","Dinosaur","Stride","Strike","Attack Bonus","Charge"],
     "source": "Velociraptor",
     "content": [
       {
@@ -1932,597 +1932,602 @@
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Strike","Hardness","Damage","Armor"],
+    "source": "Ankhrav",
     "content": [
       {
-        "name": "",
-        "text": "",
+        "name": "Armor-Rending Bite",
+        "text": "The ankhrav makes a mandibles Strike; if the Strike hits, the target’s armor takes the damage and the acid damage bypasses the armor’s Hardness.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Acid","Cone","Reflex","Basic Save","Persistent Damage","Recharge"],
+    "source": "Ankhrav",
+    "content": [
+      {
+        "name": "Spray Acid",
+        "text": "Frequency once per hour; Effect The ankhrav spews acid in a 30-foot cone, dealing 3d6 acid damage and 1d6 persistent acid damage (DC 20 basic Reflex save).",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Amphibious","Boggard","Humanoid","Sonic","Emanation","Fortitude","Damage Bonus","Frightened","Recharge"],
+    "source": "Boggard Swampseer",
+    "content": [
+      {
+        "name": "Destructive Croak",
+        "text": "The swampseer utters a powerful croak that deals 4d6 sonic damage to any non-boggard within a 15-foot emanation (DC 19 basic Fortitude save); any creature with the frightened condition takes additional sonic damage equal to twice the value of their frightened condition. The boggard can’t use Destructive Croak again for 1d4 rounds",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Amphibious","Boggard","Humanoid","Reaction","Auditory","Mental","Sonic","Performance","Saves"],
+    "source": "Boggard Swampseer",
+    "content": [
+      {
+        "name": "Drowning Drone",
+        "text": "Trigger The boggard swampseer or one of its allies within 60 feet attempts a saving throw against an auditory or sonic effect. Effect The swampseer releases a croak that drowns out other sound. It rolls a Performance check. It and boggard allies in the area can use the higher result of the swampseer’s Performance check or their saves to resolve the effects against the auditory or sonic effect.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Aquatic","Elemental","Water","Movement","Grab","Stride","Swim"],
+    "source": "Brine Shark",
+    "content": [
+      {
+        "name": "Deep Plunge",
+        "text": "The brine shark dives straight down into the water, moving up to twice its swim Speed in a straight vertical line. It can use this ability while grabbing a creature.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Goblin","Humanoid","Strike","Flat-Footed"],
+    "source": "Bugbear Tormentor",
+    "content": [
+      {
+        "name": "Twin Feint",
+        "text": "The bugbear tormentor makes a dazzling series of attacks with two weapons, using the first attack to throw their foe off guard against a second attack at a different angle. They make one Strike with each of their two melee weapons, both against the same target. The target is automatically flat-footed against the second attack. Apply the bugbear tormentor’s multiple attack penalty to the Strikes normally.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Aquatic","Auditory","Concentrate","Emotion","Enchantment","Fear","Mental","Primal","Frightened","Will"],
+    "source": "Bunyip",
+    "content": [
+      {
+        "name": "Roar",
+        "text": "The bunyip lets out a loud and horrifying roar. Other creatures within 100 feet must succeed at a DC 21 Will save or become frightened 2 (frightened 3 on a critical failure, frightened 1 on a success, or unaffected on a critical success). No matter the result, the creature is temporarily immune to the effect for 1 minute.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Aquatic","Polymorph","Primal","Transmutation"],
+    "source": "Bunyip",
+    "content": [
+      {
+        "name": "Shift Form",
+        "text": " A bunyip can alter its form slightly to gain an advantage and make it harder to recognize. When it does, its teeth shrink and its Jaws Strike doesn’t deal the 1d6 persistent bleed damage. It can choose to gain either a long snake tail, granting its tail Strike reach 10 feet and Grab, or squat crocodile legs, increasing its land Speed to 20 feet. If it uses Shift Form again, the bunyip can return to normal or switch between a long tail or crocodile legs.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Swarm","Poison","Fortitude","Flat-Footed","Clumsy"],
+    "source": "Centipede Swarm",
+    "content": [
+      {
+        "name": "Centipede Swarm Venom",
+        "text": "Saving Throw DC 20 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage and flat-footed (1 round); Stage 2 1d8 poison damage, clumsy 1, and flat-footed (1 round)",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Swarm","Piercing","Reflex","Damage"],
+    "source": "Centipede Swarm",
+    "content": [
+      {
+        "name": "Swarming Bites",
+        "text": "Each enemy in the swarm’s space takes 1d8 piercing damage (DC 20 basic Reflex save) plus centipede swarm venom.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Elemental","Fire","Aura","Fortitude","Sickened","Concealment","Breathing"],
+    "source": "Cinder Rat",
+    "content": [
+      {
+        "name": "Fetid Fumes",
+        "text": "Aura 5 feet. A creature that enters the aura or begins its turn there must succeed at a DC 22 Fortitude save or become sickened 1. Everything within the aura, including the cinder rat, is concealed by smoke.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Beast","Incapacitation","Primal","Transmutation","Fortitude","Slowed"],
+    "source": "Cockatrice",
+    "content": [
+      {
+        "name": "Calcification",
+        "text": "A peck from a cockatrice hardens the flesh of the creature struck. The target must succeed at a DC 20 Fortitude save or become slowed 1 (or slowed 2 on a critical failure). Further failed saves against calcification increase the slowed condition. Once a creature’s actions are reduced to 0 by calcification, that creature becomes petrified. Every 24 hours after it was petrified, the victim can attempt a DC 20 Fortitude save to recover. On a success, it becomes flesh again, but is slowed 1 for the next 24 hours. On a critical success, the creature recovers and isn’t slowed. On a failure, the creature remains petrified, but can try again in 24 hours. On a critical failure, the petrification is permanent, and the creature can’t attempt any more saves.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Dero","Humanoid","Attack","Nonlethal","Athletics","Grab","Bludgeoning"],
+    "source": "Dero Strangler",
+    "content": [
+      {
+        "name": "Strangle",
+        "text": "Requirement The dero must have two free hands, or be wielding an aklys and have one hand free. Effect The dero attempts an Athletics check to Grab with a +2 circumstance bonus. On a success, the target takes 1d6+6 bludgeoning damage. Double the damage on a critical success.",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Attack","Grab","Fortitude","Basic Save","Piercing"],
+    "source": "Dire Wolf",
+    "content": [
+      {
+        "name": "Worry",
+        "text": "Requirements The dire wolf has a creature grabbed with its jaws. Effect The dire wolf fiercely shakes the grabbed creature with its teeth, dealing 1d10+2 damage (DC 20 basic Fortitude save).",
+        "action": 1
+      }
+    ]
+  },
+  {
+    "tags": ["Humanoid","Attack","Reaction","Adjacent","Strike","Flat-Footed"],
+    "source": "Doppelganger",
+    "content": [
+      {
+        "name": "End the Charade",
+        "text": "Trigger The doppelganger is transformed with Change Shape and another creature moves adjacent to it or takes a hostile action against it. Effect The doppelganger reverts to its natural form and can make a Strike against the triggering creature. If the creature was unaware the doppelganger was in disguise, that creature is flat-footed against this attack.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Fey","Nymph","Plant","Sickened","Fortitude","Drained"],
+    "source": "Dryad",
+    "content": [
+      {
+        "name": "Tree Dependent",
+        "text": "A dryad is mystically bonded to a single great tree and must remain within 300 feet of it. If she moves beyond that range, she becomes sickened 1 and is unable to recover. She must attempt a DC 18 Fortitude save every hour or increase the sickened value by 1 (to a maximum of sickened 4). After 24 hours, she becomes drained 1, with this value increasing by 1 every additional 24 hours. A dryad can perform a 24-hour ritual to bond herself to a new tree.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Fey","Nymph","Plant","Cast a Spell","Senses","Primal","Transmutation"],
+    "source": "Dryad",
+    "content": [
+      {
+        "name": "Tree Meld",
+        "text": "The dryad touches a tree of enough volume to contain her and merges into it for as long as she wishes. She can Cast a Spell while inside as long as the spell doesn’t require a line of effect outside the tree. She can hear, but not see, what’s going on outside the tree. She can Dismiss this effect. Significant physical damage dealt to the tree expels the dryad from the tree and deals 3d6 damage to her. Passwall expels the dryad without dealing damage. If a dryad uses this ability on her bonded tree, she instead enters an extradimensional living space within the tree; Tree Meld gains the extradimensional trait. A dryad can bring up to two other creatures with her when entering her home within her bonded tree. The dryad can still be expelled from this space as above.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Beast","Fly","Grab","Movement"],
+    "source": "Giant Eagle",
+    "content": [
+      {
+        "name": "Snatch",
+        "text": "A giant eagle can Fly at half Speed while it has a creature grabbed or restrained in its talons, carrying that creature along with it.",
+        "action": "Passive"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Reaction","Strike","Grab","Adjacent"],
+    "source": "Giant Mantis",
+    "content": [
+      {
+        "name": "Deadly Mandibles",
+        "text": "Trigger The giant mantis Grabs a creature with its leg. Effect The mantis pulls the creature adjacent to it, then makes a mandibles Strike against the creature.",
+        "action": "Reaction"
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Movement","Strike","Reach"],
+    "source": "Giant Mantis",
+    "content": [
+      {
+        "name": "Lunging Strike",
+        "text": "The giant mantis lunges forward, making a leg Strike with an extended reach of 20 feet.",
+        "action": 2
+      }
+    ]
+  },
+  {
+    "tags": ["Animal","Poison","Fortitude","Enfeebled"],
+    "source": "Giant Scorpion",
+    "content": [
+      {
+        "name": "Giant Scorpion Venom",
+        "text": "Saving Throw DC 18 Fortitude; Maximum Duration 6 rounds; Stage 1 1d10 poison damage and enfeebled 1 (1 round); Stage 2 2d10 poison damage and enfeebled 1 (1 round); Stage 3 2d10 poison damage and enfeebled 2 (1 round)",
         "action": ""
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Incapacitation","Poison","Fortitude","Clumsy","Paralyzed"],
+    "source": "Giant Wasp",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Giant Wasp Venom",
+        "text": "Saving Throw Fortitude DC 19; Maximum Duration 6 rounds; Stage 1 no effect (1 round); Stage 2 clumsy 2 (1 round); Stage 3 paralyzed (1 round)",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Adjacent","Paralyzed","Unconscious","Disease"],
+    "source": "Giant Wasp",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Implant Eggs",
+        "text": "The giant wasp lays eggs in an adjacent creature that is paralyzed or unconscious, exposing it to the wasp larva disease.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Disease","Fortitude","Damage"],
+    "source": "Giant Wasp",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Wasp Larva",
+        "text": "Saving Throw Fortitude DC 21; Stage 1 carrier with no ill effect (1d6 days); Stage 2 drained 1 (1d3 days); Stage 3 5d6 damage, larva emerges (disease ends)",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Auditory","Emotion","Fear","Mental","Frightened"],
+    "source": "Gorilla",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Frightening Display",
+        "text": "The gorilla beats its chest in a terrifying display. Creatures within 30 feet must attempt a DC 20 Will save. While a creature is frightened by this ability, it is flat-footed to the gorilla. CRITICAL SUCCESS No effect and temporarily immune for 1 minute. SUCCESS The creature is unaffected. FAILURE The creature is frightened 1. CRITICAL FAILURE The creature is frightened 2.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Mindless","Acid","Ranged","Strike","Splash"],
+    "source": "Grothlut",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Digestive Spew",
+        "text": "Damage 2d6 acid damage plus 1d6 splash acid damage",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Mindless","Acid","Poison","Death","Emanation","Fortitude","Sickened"],
+    "source": "Grothlut",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Disgusting Demise",
+        "text": "When the grothlut is reduced to 0 Hit Points, its digestive organs rupture, unleashing alchemical acid and poison upon all creatures in a 30-foot emanation. Each creature in the area must succeed at a DC 19 Fortitude save or take 2d6 acid damage and become sickened 1 (double damage and sickened 2 on a critical failure).",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Mindless","Aura","Auditory","Emotion","Mental","Occult","Will","Sickened"],
+    "source": "Grothlut",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Piteous Moan",
+        "text": "60 feet. Each non-grothlut creature that enters or starts its turn within the area must succeed at a DC 17 Will saving throw or become sickened 1 (sickened 2 on a critical failure). The creature then becomes temporarily immune for 1 minute. The grothlut can activate or deactivate the aura by using a single free action that has the concentrate trait. A grothlut usually does not begin moaning until it senses the presence of a non-grothlut creature, and it usually stops once it doesn’t sense any more such creatures.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Strike","Critical Hit","Wounded"],
+    "source": "Hyaenodon",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Bonecrunching Bite",
+        "text": "A creature that is critically hit by a hyaenodon must succeed at a DC 20 Fortitude save or become wounded 1 as the creature’s bones or cartilage are crushed by the beast’s jaws.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Fly","Mount","Reaction"],
+    "source": "Pegasus",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Assisted Mount",
+        "text": "Requirement The pegasus is Flying without a rider. Effect The pegasus Flies. At any point during the movement, it can allow a willing adjacent creature to Mount it. That creature must use a reaction to do so.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Amphibious","Dragon","Water","Reaction","Strike","Skill Check","Attack Penalty","Skill Penalty"],
+    "source": "River Drake",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Tail Lash",
+        "text": "Trigger A creature within reach of the river drake’s tail uses an action to Strike or attempt a skill check. Effect The river drake attempts to Strike the triggering creature with its tail. If it hits, the creature takes a –2 circumstance penalty to the triggering roll.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Amphibious","Dragon","Water","Acid","Arcane","Evocation","Reflex","Persistent Damage","Speed Penalty","Recharge","Burst"],
+    "source": "River Drake",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Caustic Mucus",
+        "text": "The river drake spits a ball of caustic mucus up to a range of 50 feet that explodes in a 10-foot burst. Creatures within the burst take 4d6 acid damage (DC 19 basic Reflex save). Those that fail this save also take 1d6 persistent acid damage and take a –5-foot status penalty to their Speed. This Speed reduction ends with the persistent acid damage. The river drake can't use Caustic Mucus again for 1d6 rounds.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Amphibious","Dragon","Water","Strike","Bonus Attacks"],
+    "source": "River Drake",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Draconic Frenzy",
+        "text": "The river drake makes one Fangs Strike and two Tail Strikes in any order.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Amphibious","Dragon","Water","Move","Movement","Stride","Speed Bonus"],
+    "source": "River Drake",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Speed Surge",
+        "text": "The river drake moves up to twice its Speed. It can do this three times per day",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Disarm","Damage","Bypass Resistance","Hardness"],
+    "source": "Rust Monster",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Antenna Disarm",
+        "text": "The rust monster attempts to Disarm a metal item a creature is holding using its antenna (with the same modifier as an antenna Strike). On a success, the item is subject to the rust monster’s rust ability (see below) in addition to the effects of the Disarm, and if the check to Disarm is a critical success, the rust monster drops the item on the ground in its own space.",
+        "action": 1
+      },
+      {
+        "name": "Rust",
+        "text": "A rust monster’s antenna causes metal to rapidly rust and corrode. If it succeeds at an antenna Strike or Disarm attempt with its antenna, the rust monster deals 2d6 damage (doubled on a critical hit) to a metal item the target is wearing or holding, ignoring its Hardness. If the rust monster hits an unattended metal item, the item takes this damage automatically. If a creature uses the Shield Block reaction with a metal shield against an antenna attack, the shield is automatically broken, but no other item is rusted on that attack.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Amphibious","Hag","Humanoid","Will","Frightened","Slowed","Fortitude"],
+    "source": "Sea Hag",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Dread Gaze",
+        "text": "The hag gazes upon a creature, afflicting it with intense distress and a gnawing sense of impending doom, with a result depending on its Will save (DC 20). The target does not need to be able to see the sea hag. CRITICAL SUCCESS No effect. SUCCESS Frightened 1. FAILURE Frightened 1 and slowed 1 for 1 round. If the target was dying, it remains unconscious for 1 day. At the end of the day, it must attempt a Fortitude save against the same DC; if it fails, it dies. CRITICAL FAILURE Frightened 2 and slowed 1 for 1 minute. If the target was dying, it remains unconscious for 1 day. At the end of the day, it must attempt a Fortitude save against the same DC; if it fails, it dies.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Amphibious","Hag","Humanoid","Bargain"],
+    "source": "Sea Hag",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sea Hag's Bargain",
+        "text": "The sea hag can make a bargain with a willing creature, who must be of sound mind. The creature gives away a special or cherished quality—such as its courage, its beauty, or its voice—in exchange for a boon or a promise from the sea hag. As long as the sea hag keeps her end of the bargain, the only way to restore the lost quality is to defeat the sea hag or make another bargain for its return.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Mindless","Skeleton","Undead","Strike","Adjacent"],
+    "source": "Skeletal Giant",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Broad Swipe",
+        "text": "The giant makes two Strikes with its glaive against two adjacent foes, both of whom are within its reach. The multiple attack penalty does not increase until after both attacks are resolved.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Mindless","Skeleton","Undead","Stride","Strike","Damage Bonus","Demoralize"],
+    "source": "Skeletal Giant",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Terrifying Charge",
+        "text": "The giant Strides and makes a horns Strike with a +4 circumstance bonus to damage. If the strike hits, the giant attempts to Demoralize the target.",
+        "action": 2
       }
     ]
   },
   
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Mindless","Plant","Strike","Damage Bonus","Bonus Attacks"],
+    "source": "Snapping Flytrap",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Focused Assault",
+        "text": "The flytrap attacks a single target with both its leaves. The flytrap makes one leaf Strike. On a success, the flytrap deals the damage from one leaf Strike plus an additional 1d8 damage for every leaf beyond the first. On a failure, the flytrap deals the damage from one leaf Strike, but it can’t use Improved Grab. It deals no damage on a critical failure. This counts toward the flytrap’s multiple attack penalty as a number of attacks equal to the number of leaves the flytrap has.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Mindless","Plant","Strike","Attack Bonus"],
+    "source": "Snapping Flytrap",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Hungry Flurry",
+        "text": "The flytrap makes two leaf Strikes at a –2 penalty, each against a different target. These attacks count toward the flytrap’s multiple attack penalty, but the multiple attack penalty doesn’t increase until after it makes all its attacks.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Mindless","Plant","Reaction","Grab","Strike"],
+    "source": "Snapping Flytrap",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Quick Capture",
+        "text": "Trigger A creature hits or touches the flytrap. Effect The flytrap makes a leaf Strike against the triggering creature. If it hits, the creature is grabbed in that leaf.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Earth","Elemental","Movement","Burrow"],
+    "source": "Sod Hound",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Earth Glide",
+        "text": "The sod hound can Burrow through any earthen matter, including rock. When it does so, the sod hound moves at its full burrow Speed, leaving no tunnels or signs of its passing.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Earth","Elemental","Senses","Olfactory"],
+    "source": "Sod Hound",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Crystal Sense",
+        "text": "A sod hound can sense crystals or gems within 60 feet as if using the scent ability",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Human","Humanoid","Tiefling","Recharge","Cast a Spell"],
+    "source": "Tiefling Adept",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Drain Bonded Item",
+        "text": "Frequency Once per day; Requirements The adept hasn’t acted yet on this turn. Effect The adept expends the power stored in its staff. This gives the adept the ability to cast one prepared spell it had already previously cast today (choosing a different spell level each time), without spending a spell slot. The adept must still Cast the Spell and meet the spell’s other requirements.",
+        "action": "Free"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Fey","Strike","Rune"],
+    "source": "Unicorn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Ghost Touch",
+        "text": " A unicorn’s Strikes have the effects of a ghost touch property rune.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Fey","Stride","Strike","Charge","Damage Bonus"],
+    "source": "Unicorn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Powerful Charge",
+        "text": "The unicorn Strides up to double its Speed in a straight line and then makes a horn Strike. If the unicorn moved at least 20 feet, it deals an additional 2d6 damage on a hit.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Poison","Fortitude","Flat-Footed","Slowed"],
+    "source": "Web Lurker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Web Lurker Venom",
+        "text": "Saving Throw Fortitude DC 19; Maximum Duration 10 rounds; Stage 1 1d6 poison and flat-footed (1 round); Stage 2 1d6 poison, flat-footed, and slowed 1 (1 round)",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Humanoid","Human","Werecreature","Curse","Necromancy","Primal","Fortitude"],
+    "source": "Werewolf",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Curse of the Werewolf",
+        "text": "This curse affects only humanoids. Saving Throw DC 19 Fortitude save. On each full moon, the cursed creature must succeed at another Fortitude save or turn into a werewolf until dawn. The creature is under the GM’s control and goes on a rampage for half the night before falling unconscious until dawn.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Undead","Wight","Reaction","Strike","Death"],
+    "source": "Wight",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Final Spite",
+        "text": "Trigger The wight is reduced to 0 Hit Points. Effect The wight makes a Strike before being destroyed. It doesn’t gain any temporary HP from drain life on this Strike.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Undead","Wight","Strike","Temporary HP","Fortitude","Drained","Divine","Necromancy"],
+    "source": "Wight",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Drain Life",
+        "text": "When the wight damages a living creature with its claw Strike, the wight gains 3 temporary Hit Points and the creature must succeed at a DC 17 Fortitude save or become drained 1. Further damage dealt by the wraith increases the amount of drain by 1 on a failed save to a maximum of drained 4",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Undead","Wight","Divine","Necromancy","Clumsy"],
+    "source": "Wight",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Wight Spawn",
+        "text": "A living humanoid slain by a wight’s claw Strike rises as a wight after 1d4 rounds. This wight spawn is under the command of the wight that killed it. It doesn’t have Drain Life or Wight Spawn and becomes clumsy 2 for as long as it is a wight spawn. If the creator of the wight spawn dies, the wight spawn becomes a full-fledged, autonomous wight; it regains its free will, gains Drain Life and Wight Spawn, and is no longer clumsy.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Xulgath","Strike","Fortitude","Enfeebled"],
+    "source": "Xulgath Leader",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Weakening Strike",
+        "text": "The target must succeed at a DC 20 Fortitude save or become enfeebled 1 (or enfeebled 2 on a critical hit) for 1 round.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Air","Elemental","Fly","Stride","Movement","Strike"],
+    "source": "Zephyr Hawk",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Circling Attack",
+        "text": "The zephyr hawk Flies up to half its Speed, makes two wing Strikes, then Flies up to half its Speed again to return to its original location. The second half of this movement doesn’t trigger reactions. Both attacks count toward the zephyr hawk’s multiple attack penalty, but the penalty doesn’t increase until after it makes both attacks.",
+        "action": 2
       }
     ]
   },
