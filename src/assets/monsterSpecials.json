@@ -2675,179 +2675,189 @@
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Earth","Attack","Fly","Strike","Reaction","Movement"],
+    "source": "Gargoyle",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Clawed Feet",
+        "text": "Trigger The gargoyle is Flying, and a creature moves into an adjacent square below it. Effect The gargoyle makes a claw Strike against the triggering creature.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Earth","Disguise","Concentrate","Deception"],
+    "source": "Gargoyle",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Statue",
+        "text": "Until the next time it acts, the gargoyle appears to be a statue. It has an automatic result of 32 on Deception checks and DCs to pass as a statue.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Ghost","Incorporeal","Spirit","Undead","Auditory","Divine","Emotion","Enchantment","Fear","Mental","Frightened","Will","Emanation"],
+    "source": "Ghost Commoner",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Frightful Moan",
+        "text": "The ghost laments its fate, forcing each living creature within 30 feet to attempt a DC 21 Will save. On a failure, a creature becomes frightened 2 (or frightened 3 on a critical failure). On a success, a creature is temporarily immune to this ghost's frightful moan for 1 minute.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Ghost","Incorporeal","Spirit","Undead","Divine","Necromancy","Death"],
+    "source": "Ghost Commoner",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Rejuvenation",
+        "text": "When a ghost is destroyed, it re-forms after 2d4 days within the location it’s bound to, fully healed. A ghost can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting. Setting right the injustice that led to the commoner's death allows it to move on to the afterlife.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Gnoll","Humanoid","Auditory","Linguistic","Step","Reaction"],
+    "source": "Gnoll Sergeant",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Bark Orders",
+        "text": "The gnoll sergeant commands its allies to reposition. Any allies who hear and understand this order can use a reaction to Step.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Aquatic","Swim","Stride","Strike","Movement"],
+    "source": "Great White Shark",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Breach",
+        "text": "The shark Swims up to its swim Speed, then Leaps vertically out of the water up to 25 feet high, making a Strike against a creature at any point during the jump (this lets it attack a creature within 30 feet of the water’s surface). After the Strike, the shark splashes back down into the water.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Aquatic","Strike","Damage Bonus","Slashing"],
+    "source": "Great White Shark",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Savage",
+        "text": "The shark hit with a jaws Strike on its most recent action this turn. Effect The creature the shark hit takes 1d12 slashing damage.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Aquatic","Swim","Stride","Movement","Strike"],
+    "source": "Great White Shark",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Strafing Chomp",
+        "text": "The shark Swims up to half its swim Speed, makes a jaws Strike, and then Swims up to half its Speed further. The Strike deals half damage.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Hag","Humanoid","Deception","Lie"],
+    "source": "Green Hag",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sound Imitation",
+        "text": "A green hag who succeeds at a Deception check to Lie can mimic the sounds of any animal found near her lair. She has a +4 circumstance bonus to this check.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Hag","Humanoid","Save Penalty","Necromancy","Occult","Fortitude","Enfeebled","Cone","Recharge"],
+    "source": "Green Hag",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Betraying Touch",
+        "text": "The green hag touches a creature that doesn’t realize the hag is an enemy. The betrayed creature is affected by the hag’s enfeebling humors and takes a –4 circumstance penalty to their saving throw against that effect.",
+        "action": 1
+      },
+      {
+        "name": "Enfeebling Humors",
+        "text": "A creature damaged by a hag’s claw must succeed at a DC 20 Fortitude save or be enfeebled 1 for 1 day. On a critical failure, or if it gets hit again and fails its save a second time, it’s enfeebled 2 for 1 day.",
+        "action": "Passive"
+      },
+      {
+        "name": "Exhale Miasma",
+        "text": "The green hag exhales a miasma of green vapors. Each living creature in a 15-foot cone is affected by her enfeebling humors (attempting a save as normal). She can’t use Exhale Miasma again for 1d4 rounds.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Fly","Movement","Stride","Strike"],
+    "source": "Griffon",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Flying Strafe",
+        "text": "The griffon Flies up to its fly Speed and makes two talon Strikes at any point during that movement. Each Strike must target a different creature. The attacks take the normal multiple attack penalty.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Goblin","Humanoid","Concealment","Cover","Strike"],
+    "source": "Hobgoblin Archer",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Perfect Aim",
+        "text": "The hobgoblin archer ignores the concealed condition. Their targets don’t benefit from lesser cover, and they reduce the AC bonus from standard cover by 2 against the hobgoblin archer’s attack.",
+        "action": "Passive"
       }
     ]
   },
   
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Goblin","Humanoid","Stride","Step","Sneak","Interact","Reload"],
+    "source": "Hobgoblin Archer",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Running Reload",
+        "text": "The archer Strides, Steps, or Sneaks, then Interacts to reload.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Goblin","Humanoid","Precision","Damage Bonus","Strike"],
+    "source": "Hobgoblin Archer",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Crossbow Precision",
+        "text": "The first time the archer hits with a crossbow attack in a round, it deals 1d8 extra precision damage.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Archon","Celestial","Healing","Touch"],
+    "source": "Horned Archon",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Touch of Charity",
+        "text": "A horned archon can touch another creature to take on that creature’s wounds, transferring up to 30 of the horned archon’s HP to the touched creature. The horned archon can’t transfer more HP than it currently has.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Elemental","Genie","Arcane","Polymorph","Concentrate","Transmutation","Size Increase","Fortitude"],
+    "source": "Janni",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Change Size",
+        "text": "Frequency Once per day. Effect The janni changes a creature’s size. This works as a 4th-level enlarge or shrink spell but can target an unwilling creature (DC 21 Fortitude save negates).",
+        "action": 2
       }
     ]
   },
