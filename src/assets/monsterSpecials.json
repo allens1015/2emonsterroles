@@ -2862,332 +2862,324 @@
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Reflex","Touch","Grab","Melee","Interact","Strike"],
+    "source": "Mimic",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Adhesive",
+        "text": "The mimic is coated in an adhesive slime. Any creature that hits the mimic, is hit by the mimic, or otherwise touches the mimic must succeed at a DC 23 Reflex save or become grabbed (Escape DC 23). A weapon that hits the mimic is stuck to the mimic and can be removed with a successful DC 23 Athletics check (made as a single action). A mimic can have any number of objects or creatures stuck to it at a time. The mimic can release a stuck creature or object by using a single action, and the adhesive dissolves 1 minute after the mimic dies, releasing all stuck objects and creatures.",
+        "action": "Passive"
+      },
+      {
+        "name": "Object Lesson",
+        "text": "Trigger A creature touches or physically interacts with the mimic while the mimic is transformed using Mimic Object. Effect The triggering creature is automatically stuck by the mimic’s adhesive (it receives no save). The mimic then makes a pseudopod Strike against any creature adjacent to the mimic. Object Lesson can’t be used again until the mimic escapes and takes on a new disguise.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Concentrate","Polymorph","Deception","Disguise"],
+    "source": "Mimic",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Mimic Object",
+        "text": "The mimic assumes the shape of any Medium object. This doesn't change the mimic's texture or overall size but can alter its coloration and visual appearance. It has an automatic result of 28 on Deception checks and DCs to pass as the object that it's mimicking.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Strike","Bonus Attacks","Adjacent","Melee"],
+    "source": "Minotaur",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Axe Swipe",
+        "text": "The minotaur swings its axe in a wide arc, making greataxe Strikes against any two foes who are adjacent to each other and within the minotaur's reach. The multiple attack penalty does not increase until after both attacks are resolved.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Intimidate","Demoralize","Emanation","Auditory","Frightened","Survival"],
+    "source": "Minotaur",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Hunted Fear",
+        "text": "The minotaur snorts and clomps as it hunts its prey, inspiring terror. The minotaur makes an Intimidation check to Demoralize all living creatures within 60 feet that can hear the minotaur but not see it. Roll once and apply the result to all creatures. If the targets are in a maze or similarly difficult-to-navigate structure, the minotaur gains a +4 circumstance bonus to this check. Creatures that become frightened as a result also take a -2 circumstance penalty to Survival checks to avoid getting lost for 1 minute. This use of Demoralize doesn't have the visual trait. Each target is temporarily immune for 1 minute.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Charge","Stride","Strike","Damage Bonus"],
+    "source": "Minotaur",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Powerful Charge",
+        "text": "The minotaur Strides twice, then makes a horn Strike. If it moved at least 20 feet from its starting position, the Strike's damage is increased to 2d8+10 (normal 1d8+8).",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Giant","Strike","Temporary HP","Consume","Stride"],
+    "source": "Ogre Glutton",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Glutton's Feast",
+        "text": "If the ogre glutton damages a living creature with their jaws Strike, they gain 1d4 temporary Hit Points for 1 minute.",
+        "action": "Passive"
+      },
+      {
+        "name": "Glutton's Rush",
+        "text": "The ogre glutton Strides twice and makes a jaws Strike. If they damage a living creature with this Strike, the temporary Hit Points they receive from Glutton's Feast is increased to 2d4.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Disease","Fortitude","Sickened","Unconscious","Dead"],
+    "source": "Otyugh",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Filth Fever",
+        "text": "The sickened and unconscious conditions from filth fever don’t improve on their own until the disease is cured. Saving Throw DC 20 Fortitude; Stage 1 carrier with no ill effect (1d4 hours); Stage 2 sickened 1 (1 day); Stage 3 sickened 1 and slowed 1 as long as it remains sickened (1 day); Stage 4 unconscious (1 day); Stage 5 dead",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Athletics","Fortitude","Shove","Push","Grab"],
+    "source": "Otyugh",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Reposition",
+        "text": "The otyugh attempts to move all creatures that it has grabbed into other spaces within the reach of its tentacles, rolling a single Athletics check and comparing the result against each creature’s Fortitude DC. On a failure, the creature remains in place, and on a critical failure, the creature is no longer grabbed.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Auditory","Emotion","Fear","Mental","Will","Frightened","Stride"],
+    "source": "Owlbear",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Bloodcurdling Screech",
+        "text": "The owlbear unleashes a loud screech that terrifies its prey. Each creature in an 80-foot emanation must attempt a DC 20 Will save. Regardless of the result, creatures are temporarily immune for 1 minute. CRITICAL SUCCESS The creature is unaffected. SUCCESS The creature is frightened 1. FAILURE The creature is frightened 2. CRITICAL FAILURE The creature is fleeing for 1 round and frightened 3.",
+        "action": 1
+      },
+      {
+        "name": "Screeching Advance",
+        "text": "The owlbear makes a Bloodcurdling Screech and Strides twice. All creatures within 80 feet of the owlbear at any point during this movement are subjected to the effects of Bloodcurdling Screech.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Strike","Will","Sickened","Slowed"],
+    "source": "Owlbear",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Gnaw",
+        "text": "The owlbear has a creature grabbed with its talons. Effect The owlbear attempts to disembowel the creature with a beak Strike. If the Strike hits, the target must attempt a DC 22 Will save. CRITICAL SUCCESS The target is unaffected. SUCCESS The target is sickened 1. FAILURE The target is sickened 1 and slowed 1 as long as it remains sickened.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Fey","Sprite","Manipulate","Emotion","Incapacitation","Mental","Divination","Enchantment","Sleep","Nonlethal"],
+    "source": "Pixie",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sprinkle Pixie Dust",
+        "text": "The pixie sprinkles pixie dust onto one of its arrows. If the pixie hits a creature with that arrow before the pixie’s next turn, the arrow inflicts one of the following special effects instead of dealing damage. Each effect depends on the target’s DC 21 Will save. On a critical hit, the target treats its save result as one degree worse. CHARM (emotion, enchantment, incapacitation, mental) The target suffers the effects of a charm spell, except it doesn’t gain a bonus to its save if the only hostile act was the pixie firing its bow, and the pixie can choose to direct the target’s adoration toward another creature rather than itself. MEMORY LOSS (divination, mental) On a failed Will save, the target loses the last 5 minutes of its memory. SLEEP (enchantment, incapacitation, mental, sleep) The target suffers the effects of a 3rd-level sleep spell. SUBDUAL (enchantment, mental, nonlethal) The target takes 4d6 mental damage, depending on its basic Will save.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Conjuration","Move","Primal","Teleportation"],
+    "source": "Poracha",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Jaunt",
+        "text": "The poracha teleports up to 40 feet. It must have line of sight to the space it teleports to. It can’t use Jaunt again for 1d4 rounds.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Primal","Transmutation","Strike","Polymorph"],
+    "source": "Poracha",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Object Meld",
+        "text": "The poracha touches an adjacent object of enough volume to contain it. It merges into the object indefinitely, and while it’s inside, time moves exceptionally slowly for it and it has only limited perception of the outside world. The poracha can sense what’s going on outside the object only using tremorsense. The poracha can use only mental actions or Jaunt; if it Jaunts, it leaves the object and appears where it chooses. If a creature Strikes the object, the poracha is expelled unharmed.",
+        "action": 2
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Ratfolk","Movement","Adjacent","Same Space"],
+    "source": "Ratfolk Grenadier",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Swarming",
+        "text": "A ratfolk grenadier can end its movement in the same square as an ally that also has this ability. Only two such creatures can share the same space.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Ratfolk","Inventory"],
+    "source": "Ratfolk Grenadier",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Cheek Pouches",
+        "text": "A ratfolk grenadier has stretchy cheek pouches that can store up to 1 cubic foot of objects (though no more than 4 light items). The ratfolk can remove or store an item using the Interact action. As long as the ratfolk has at least one object in its cheek pouches, its speech is noticeably difficult to understand.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Ratfolk","Interact","Ranged","Inventory","Strike","Bomb"],
+    "source": "Ratfolk Grenadier",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Quick Bomber",
+        "text": "The ratfolk grenadier draws an alchemical bomb with an Interact action and throws it as a ranged Strike.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Ratfolk","Recharge","Inventory"],
+    "source": "Ratfolk Grenadier",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Quick Stow",
+        "text": "Frequency once per round. Effect The ratfolk grenadier stores one held item of light or negligible Bulk in its cheek pouches.",
+        "action": "Free"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Fey","Auditory","Primal","Step","Stride","Cast a Spell","Will","Emanation"],
+    "source": "Satyr",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Play the Pipes",
+        "text": "Requirements The satyr is holding a musical instrument. Effect The satyr plays a melody on his instrument to cast charm, fear, sleep, or suggestion without expending the spell slot and using his music in place of providing the spell’s component actions. The spell gains the auditory trait and targets all creatures in a 60-foot emanation instead of its usual targets. A creature that succeeds at its Will save against any spell is then temporarily immune from spells played from that satyr’s pipes for 1 minute. Satyrs are immune to this music.",
+        "action": 3
+      },
+      {
+        "name": "Fleet Performer",
+        "text": "When the satyr Plays the Pipes to cast a spell, he can Step or Stride as part of the activity.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Fey","Enchantment","Mental","Primal","Will","Fear","Consume","Interact"],
+    "source": "Satyr",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Sylvan Wine",
+        "text": "A satyr’s wineskin magically enchants any alcohol inside. With an Interact action, a living creature can imbibe the alcohol and gain a +1 item bonus to Will saves and a +3 item bonus to Will saves against fear effects for the following hour. When the wineskin is removed from a satyr’s person, the magic remains only until the wine spoils. The wineskin holds up to eight drafts of wine",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Swarm","Poison","Fortitude","Enfeebled"],
+    "source": "Scorpion Swarm",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Scorpion Venom",
+        "text": "Saving Throw DC 18 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage (1 round); Stage 2 1d6 poison damage and enfeebled 1 (1 round)",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Swarm","Piercing","Damage","Reflex"],
+    "source": "Scorpion Swarm",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Swarming Stings",
+        "text": "Each enemy in the swarm’s space takes 2d8 piercing damage (DC 21 basic Reflex save) and is exposed to scorpion venom.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Amphibious","Humanoid","Sea Devil","Ranged","Thrown"],
+    "source": "Sea Devil Brute",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Unimpeded Throw",
+        "text": "A sea devil brute can use thrown ranged weapons underwater with no penalty due to range increment.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Incorporeal","Undead","Strike","Enfeebled","Clumsy","Spawn"],
+    "source": "Shadow",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Steal Shadow",
+        "text": "Requirement The shadow hit a living creature with a shadow hand Strike on its previous action. Effect The shadow pulls at the target’s shadow, making the creature enfeebled 1. This is cumulative with other enfeebled conditions from shadows, to a maximum of enfeebled 4. If this increases a creature’s enfeebled value to 3 or more, the target’s shadow is separated from its body (see shadow spawn). Enfeebled from Steal Shadow decreases by 1 every hour.",
+        "action": 1
+      },
+      {
+        "name": "Shadow Spawn",
+        "text": "When a creature’s shadow is pulled free by Steal Shadow, it becomes a shadow spawn under the command of the shadow that created it. This shadow spawn doesn’t have Steal Shadow and is perpetually and incurably clumsy 2. If the creature the shadow spawn was pulled from dies, the shadow spawn becomes a full-fledged, autonomous shadow. If the creature recovers from its enfeeblement, its shadow returns to it and the shadow spawn is extinguished.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Incorporeal","Undead","Sneak","Hidden"],
+    "source": "Shadow",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Slink in Shadows",
+        "text": "The shadow can Hide or end its Sneak in a creature’s or object’s shadow.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Strike","Grab","Prone"],
+    "source": "Tiger",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Wrestle",
+        "text": "The tiger makes a claw Strike against a creature it is grabbing. If the attack hits, that creature is knocked prone.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Undead","Vampire","Grab","Paralyzed","Restrained","Unconscious","Adjacent","Athletics","Fortitude","Drained","Healing","Temporary HP","Medicine"],
+    "source": "Vampire Spawn",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Drink Blood",
+        "text": "Requirement A grabbed, paralyzed, restrained, unconscious, or willing creature is within the vampire's reach. Effect The vampire sinks its fangs into that creature to drink its blood. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is drained 1 and the vampire regains 5 HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drain value by 1. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so. A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a DC 20 Medicine check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes.",
+        "action": 1
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Swarm","Poison","Fortitude","Clumsy"],
+    "source": "Wasp Swarm",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Wasp Venom",
+        "text": "Saving Throw Fortitude DC 21; Maximum Duration 6 rounds; Stage 1 1d6 poison (1 round); Stage 2 2d6 poison and clumsy 2 (2 rounds)",
+        "action": "Passive"
       }
     ]
   },
