@@ -13,6 +13,11 @@
         class="stat-table-column"
       >
         {{ processColumn(col) }}
+        <div
+          v-show="isFocused(tableTypeIn,i,j) && hasText(tableTypeIn,i,j)"
+        >
+          <v-label>{{ getFocusedText(tableTypeIn,i,j) }}</v-label>
+        </div>
       </v-col>
     </v-row>
     <v-divider></v-divider>
@@ -35,6 +40,32 @@ export default ({
     isFocusedArray: []
   }),
   methods: {
+    hasText(table,i,j) {
+      const level = i-1;
+      const column = j;
+      if(level == monsterRoles.selectedLevel) {
+        const selectedCol = localMaps.rolesDataMap[monsterRoles.selectedRole][table];
+        const colIndex = selectedCol["index"].indexOf(column);
+        if(colIndex != -1 && selectedCol["text"]) {
+          const textIndex = selectedCol["text"][colIndex];
+          return textIndex != -1 ? true : false; 
+        }
+      }
+      return;
+    },
+    getFocusedText(table,i,j) {
+      const level = i-1;
+      const column = j;
+      if(level == monsterRoles.selectedLevel && monsterRoles.selectedRole) {
+        const selectedCol = localMaps.rolesDataMap[monsterRoles.selectedRole][table];
+        const colIndex = selectedCol["index"].indexOf(column);
+        if(colIndex != -1 && selectedCol["text"]) {
+          const text = selectedCol["text"][colIndex];
+          return text;
+        }
+      }
+      return;
+    },
     getTableData(prop) {
       return monsterRoles[prop];
     },
@@ -59,7 +90,7 @@ export default ({
       if(table == "resistAndWeakness") {
         return;
       }
-      if(level == monsterRoles.selectedLevel && localMaps.rolesDataMap[monsterRoles.selectedRole][table] == column)
+      if(level == monsterRoles.selectedLevel && localMaps.rolesDataMap[monsterRoles.selectedRole][table]["index"].indexOf(column) != -1)
         return true;
       return;
     }
