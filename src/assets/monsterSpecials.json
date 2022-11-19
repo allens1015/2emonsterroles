@@ -3206,476 +3206,464 @@
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Devil","Fiend","Disease","Enfeebled","Saves","Fortitude"],
+    "source": "Barbazu",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Avernal Fever",
+        "text": "Saving Throw DC 23 Fortitude; Stage 1 carrier with no ill effect (1 day); Stage 2 enfeebled 1 (1 day); Stage 3 enfeebled 2 (1 day)",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Devil","Fiend","Divine","Necromancy","Strike","Bleed","Persistent Damage","Save Penalty"],
+    "source": "Barbazu",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Infernal Wound",
+        "text": "A bearded devil’s glaive Strike also deals 1d6 persistent bleed damage that resists attempts to heal it. The flat check to stop the bleeding starts at DC 20. The DC is reduced to 15 only if the bleeding creature or an ally successfully assists with the recovery. The DC to Administer First Aid to a creature with an infernal wound is increased by 5. A spellcaster or item attempting to use healing magic on a creature suffering from an infernal wound must succeed at a DC 21 counteract check or the magic fails to heal the creature.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Devil","Fiend","Movement","Step","Strike","Shove","Reach"],
+    "source": "Barbazu",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Reposition",
+        "text": "The devil hits a creature with a glaive Strike. Effect The devil moves the creature 5 feet in any direction. The destination square must be within reach of the devil’s glaive. This movement doesn’t trigger reactions.",
+        "action": "Free"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Devil","Fiend","Strike","Attack Bonus","Bonus Attacks"],
+    "source": "Barbazu",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Wriggling Beard",
+        "text": "Frequency once per round. Effect The barbazu makes a beard Strike. This Strike ignores their multiple attack penalty and doesn’t count toward that penalty.",
+        "action": "1"
       }
     ]
   },
   
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Arcane","Concentrate","Incapacitation","Transmutation","Visual","Fortitude","Slowed","Gaze"],
+    "source": "Basilisk",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Petrifying Gaze",
+        "text": "The basilisk stares at a creature it can see within 30 feet. That creature must attempt a DC 22 Fortitude save. If it fails and has not already been slowed by Petrifying Glance or this ability, it becomes slowed 1. If the creature was already slowed by this ability or Petrifying Glance, a failed save causes the creature to be petrified permanently. A creature petrified in this manner that is coated (not just splashed) with fresh basilisk blood (taken from a basilisk that has been dead no longer than 1 hour) is instantly restored to flesh. A single basilisk contains enough blood to coat 1d3 Medium creatures in this manner.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Attack","Incapacitation","Strike","Reflex","Engulf"],
+    "source": "Cloaker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Envelop",
+        "text": "The cloaker makes an attack roll with a +14 bonus against an adjacent creature’s Reflex DC. If it succeeds, it envelops the target, who is restrained. Attacks that hit an enveloping cloaker deal half their damage to the cloaker and half to the trapped victim. The cloaker can’t Fly, and when it moves using its land Speed it moves the enveloped creature with it. The cloaker can make only jaws Strikes against the restrained creature but can make tail Strikes against other creatures. A creature that voluntarily puts on the cloaker becomes engulfed automatically. A cloaker can engulf only Large or smaller creatures, and no more than one creature at a time.",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Auditory","Emotion","Mental","Will","Fear","Incapacitation","Sickened","Clumsy","Stupefied"],
+    "source": "Cloaker",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Infrasonic Moan",
+        "text": "The cloaker lets out an infrasonic moan that has one of the effects below. A creature that succeeds at a DC 22 Will save is unaffected. Any creature that attempts this save becomes temporarily immune for 1 hour. Because the moan is infrasonic, most humanoids don’t detect the source of their plight if they aren’t already aware of the cloaker. FEAR (fear, incapacitation) Each creature within a 30-foot emanation becomes frightened 1 (or, on a critical failure, frightened 2 and fleeing until the end of its next turn). NAUSEA Each creature within a 30-foot emanation falls prone and become sickened 2. STUPOR The cloaker targets a single creature within 30 feet. The creature becomes clumsy 1 and stupefied 1 for 1 minute.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Giant","Humanoid","Flourish","Strike","Melee","Bonus Attacks"],
+    "source": "Cyclops",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Swipe",
+        "text": "The cyclops makes a melee Strike and compares the attack roll result to the AC of up to two foes, each of whom must be within its melee reach and adjacent to each other. Roll damage only once and apply it to each creature hit. A Swipe counts as two attacks for the cyclops’s multiple attack penalty.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Dero","Humanoid","Concentrate","Incapacitation","Mental","Visual","Dazzle","Confused","Will"],
+    "source": "Dero Magister",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Cytillesh Stare",
+        "text": "Frequency once per round; Effect The magister focuses their gaze on a creature they can see within 30 feet. The target is dazzled for 1 round and must succeed at a DC 24 Will saving throw or be confused for 1 round.",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Air","Elemental","Genie","Arcane","Evocation","Shove","Fortitude","Prone"],
+    "source": "Djinni",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Hurricane Blast",
+        "text": "Frequency Once per round. Effect The djinni all creatures in its whirlwind pushes back 20 feet, or forces all creatures in the aura to move 20 feet clockwise or counterclockwise. Each creature must attempt a DC 21 Fortitude save. On a success, it avoids being moved, and on a critical failure it falls prone in addition to being moved. Creatures with the air trait are immune.",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Ethereal","Poison","Fortitude","Clumsy","Slowed"],
+    "source": "Ether Spider",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Ether Spider Venom",
+        "text": "Saving Throw DC 22 Fortitude; Maximum Duration 6 rounds; Stage 1 1d6 poison damage and clumsy 1 (1 round); Stage 2 2d6 poison damage, clumsy 2 and slowed 1 (1 round); Stage 3 3d6 poison damage, clumsy 3 and slowed 2 (1 round)",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Ethereal","Plane","Vision"],
+    "source": "Ether Spider",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Ethereal Step",
+        "text": "The ether spider shifts to either the Ethereal Plane or the Material Plane. The ether spider can remain on the Ethereal Plane indefinitely without ill effect. While there, it can see clearly onto the Material Plane with a range of 60 feet. On its first round in an encounter, the ether spider can use this ability once as a free action.",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Ethereal","Immobilized","Escape","Cone","Ref"],
+    "source": "Ether Spider",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Ethereal Web Trap",
+        "text": "A creature hit by the ether spider’s web attack is immobilized and stuck to the nearest surface (Escape DC 22).",
+        "action": "Passive"
+      },
+      {
+        "name": "Web Burst",
+        "text": "Frequency once per day; Effect The ether spider flings a gout of stored webs in a 30-foot cone. These webs can pass between the Material Plane and the Ethereal Plane. Each creature in the area is immobilized, as ethereal web trap, unless it succeeds at a DC 22 Reflex save.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Dragon","Fire","Strike","Bonus Attacks"],
+    "source": "Flame Drake",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Draconic Frenzy",
+        "text": "The flame drake makes two Fangs Strikes and one Tail Strike in any order.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Dragon","Fire","Arcane","Evocation","Burst","Basic Save","Reflex","Recharge"],
+    "source": "Flame Drake",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Fireball Breath",
+        "text": "The flame drake expels a ball of flame to a range of 180 feet that explodes in a 20-foot burst. Creatures in the burst take 6d6 fire damage (DC 22 basic Reflex save). The flame drake can't use Fireball Breath again for 1d6 rounds.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Auditory","Emotion","Mental","Fear","Visual","Will","Frightened","Stride"],
+    "source": "Giant Frilled Lizard",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Intimidating Display",
+        "text": "The giant frilled lizard Strides. If it ends that Stride adjacent to at least one other creature, it suddenly displays its colorful neck frills and issues a frightening hiss. Each adjacent creature must succeed at a DC 21 Will save or become frightened 2 (or frightened 3 on a critical failure). The creature is then temporarily immune to Intimidating Display for 1 minute.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Animal","Aquatic","Grab","Engulf","Escape","Swallow Whole","Attack"],
+    "source": "Giant Moray Eel",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Pharyngeal Jaws",
+        "text": "The giant moray eel has a creature grabbed in its jaws. Effect The giant moray eel uses its second set of jaws to pull the prey into its gullet. The eel deals 1d6+4 piercing damage to the grabbed creature and gains a +2 circumstance bonus to its Swallow Whole attempts and to the DC for the creature to Escape. This effect ends if the target Escapes or the giant moray eel Swallows it Whole.",
+        "action": "2"
+      },
+      {
+        "name": "Swallow Whole",
+        "text": "Small, 1d6+6 bludgeoning, Rupture 12",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Fortitude","Dazzle","Strike","Blind"],
+    "source": "Gibbering Mouther",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Burn Eyes",
+        "text": "A creature that takes damage from a gibbering mouther’s spittle must succeed at a DC 22 Fortitude save or be dazzled for 1 round (or blinded for 1 round on a critical failure).",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Engulf","Escape"],
+    "source": "Gibbering Mouther",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Engulf",
+        "text": "DC 22, 3d8 piercing, Escape DC 22, Rupture 8",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aberration","Occult","Transmutation","Difficult Terrain"],
+    "source": "Gibbering Mouther",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Ground Manipulation",
+        "text": "The gibbering mouther causes stone and earth under its body to grow soft and muddy, remaining so for 1 minute after the mouther moves off the location. A gibbering mouther can move through these areas with ease, but other creatures treat them as difficult terrain.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Auditory","Concentrate","Enchantment","Incapacitation","Mental","Primal","Will","Fascinated"],
+    "source": "Harpy",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Captivating Song",
+        "text": "The harpy cries out an eerie, compelling melody. Each non-harpy creature within a 300-foot aura must attempt a DC 21 Will save to avoid becoming captivated by the harpy’s song. The effect lasts for 1 round, but if the harpy uses this ability again on subsequent rounds, it extends the duration by 1 round for all affected creatures. Once a creature succeeds at any save against Captivating Song, that creature is temporarily immune to Captivating Songs for 24 hours. SUCCESS The creature is unaffected. FAILURE The creature is fascinated, and it must spend each of its actions to move closer to the harpy as expediently as possible, while avoiding obvious dangers. If a captivated creature is adjacent to the harpy, it stays still and doesn’t act. If attacked by the harpy, the creature is freed from captivation at the end of the harpy’s turn. CRITICAL FAILURE As failure, but if attacked by the harpy, the creature can attempt a new save at the start of its next turn, rather than being freed at the end of the harpy’s turn.",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Earth","Elemental","Burrow","Recharge"],
+    "source": "Living Landslide",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Crumble",
+        "text": "Trigger The living landslide takes damage from a hostile source while atop rock or earth. Effect The living landslide crumbles into the ground, Burrowing down 10 feet. This Burrowing does not trigger reactions. The living landslide can’t Crumble again for 1d4 rounds.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Aquatic","Elemental","Water","Abjuration","Primal","Fire"],
+    "source": "Living Waterfall",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Drench",
+        "text": "The elemental puts out all fires in a 5-foot emanation. It extinguishes all non-magical fires automatically and attempts to counteract magical fires (+14 counteract modifier).",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
+    "tags": ["Aquatic","Elemental","Water","Aura","Difficult Terrain"],
     "source": "",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Vortex",
+        "text": "30 feet. Water in the area that is in the same body of water as the living waterfall is difficult terrain for Swimming creatures that don’t have the water trait.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Elemental","Fire","Emanation","Reflex","Basic Save"],
+    "source": "Living Wildfire",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Explosion",
+        "text": "When the living wild fire dies, it explodes, dealing 3d6 fire damage to each creature in a 10-foot emanation (DC 19 basic Reflex save).",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Mindless","Ooze","Slashing","Piercing","Electricity","Duplication"],
+    "source": "Ochre Jelly",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Split",
+        "text": "Whenever an ochre jelly is hit by an attack or effect that would deal slashing, piercing, or electricity damage and the ochre jelly has at least 10 HP, the jelly splits into two identical jellies with half the original’s HP. One jelly is in the same space as the original, and the other appears in an adjacent unoccupied space. If no adjacent space is unoccupied, it automatically pushes creatures and objects out of the way to fill a space (the GM decides if an object or creature is too big or sturdy to push).",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Mindless","Ooze","Constrict","Bludgeoning","Acid"],
+    "source": "Ochre Jelly",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Constrict",
+        "text": "1d8+3 bludgeoning plus 1d4 acid, DC 23",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Incorporeal","Spirit","Undead","Invisible"],
+    "source": "Poltergeist",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Natural Invisibility",
+        "text": "A poltergeist is naturally invisible. It becomes visible only when it uses Frighten.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Incorporeal","Spirit","Undead","Respawn","Necromancy","Occult"],
+    "source": "Poltergeist",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Rejuvenation",
+        "text": "When a poltergeist is destroyed, it re-forms, fully healed, where it was destroyed after 2d4 days. A poltergeist can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Incorporeal","Spirit","Undead","Concentrate","Emotion","Fear","Incapacitation","Mental","Will","Frightened","Fleeing","Invisible"],
+    "source": "Poltergeist",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Frighten",
+        "text": "Requirement The poltergeist must be invisible. Effect The poltergeist becomes visible, appearing as a skeletal, ghostlike humanoid. Each creature within 30 feet must attempt a DC 21 Will save, becoming frightened 2 on a failure. On a critical failure, it’s also fleeing for as long as it’s frightened. On a success, the creature is temporarily immune for 1 minute. At the start of its next turn, the poltergeist becomes invisible again.",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Incorporeal","Spirit","Undead","Concentrate","Evocation","Occult","Strike","Bonus Attacks","Damage Bonus","Ranged"],
+    "source": "Poltergeist",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Telekinetic Storm",
+        "text": "The poltergeist telekinetically throws numerous small objects, such as dozens of pieces of silverware or books, either spreading them out among multiple foes or directing them at one target. When this effect is spread out among multiple foes, the poltergeist makes a telekinetic object Strike at a –2 penalty against each creature within 30 feet. These count as one attack for the poltergeist’s multiple attack penalty, and the penalty doesn’t increase until after all the attacks. When this effect has only one target, the poltergeist makes a telekinetic object Strike against the target, and the damage increases to 3d12. It deals 1d12 damage on a failure, and no damage on a critical failure.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Fey","Emotion","Fear","Mental","Divine","Cast a Spell","Will","Frightened","Fleeing"],
+    "source": "Redcap",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Divine Revulsion",
+        "text": "If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19 Will save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes. CRITICAL SUCCESS The redcap is unaffected. SUCCESS The redcap is frightened 2. FAILURE The redcap gains the fleeing condition for 1 round and is frightened 4.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Fey","Manipulate","Damage Bonus","Death"],
+    "source": "Redcap",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Blood Soak",
+        "text": " The redcap dips its cap in the blood of a slain foe. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 status bonus to damage rolls for 1 minute.",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Fey","Death","Bonus Attacks","Strike"],
+    "source": "Redcap",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Deadly Cleave",
+        "text": "Trigger The redcap reduces a creature to 0 Hit Points with a scythe Strike. Effect The redcap makes another scythe Strike against a different creature, using the same multiple attack penalty as the scythe Strike that triggered this reaction. This counts toward its multiple attack penalty.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Fey","Stride","Strike","Prone","Bleed","Persistent Damage"],
+    "source": "Redcap",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Stomp",
+        "text": "The redcap Strides up to half its Speed and makes a boot Strike at any point during that movement. If the boot Strike hits a prone creature, it deals an extra 2d6 persistent bleed damage.",
+        "action": "1"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Cold","Evocation","Primal","Cone","Recharge","Reflex","Basic Save"],
+    "source": "Winter Wolf",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Breath Weapon",
+        "text": "The winter wolf breathes a cloud of frost in a 15-foot cone that deals 5d8 cold damage (DC 23 basic Reflex save). The winter wolf can’t use Breath Weapon again for 1d4 rounds.",
+        "action": "2"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Beast","Adjacent","Damage","Strike","Reach"],
+    "source": "Winter Wolf",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Pack Attack",
+        "text": "The winter wolf’s Strikes deal 1d6 extra damage to creatures within the reach of at least two of the winter wolf’s allies.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Fear","Save Bonus","Saves"],
+    "source": "Yeti",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Nightmare Guardian",
+        "text": "Yetis gain a +4 status bonus to saves against fear and against spells and abilities that affect dreams. A yeti that falls prey to a supernatural nightmare loses this ability and becomes permanently enraged, gaining a +1 status bonus to attack and damage rolls and a –1 status penalty to AC.",
+        "action": "Passive"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Hidden","Undetected","Stride","Climb","Hide","Stealth","Perception"],
+    "source": "Yeti",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Vanish",
+        "text": "Trigger The yeti is hidden or undetected while not in combat, and a creature would observe it. Effect The yeti Strides or Climbs up to half its Speed to a location where it can Hide, then Hides. If its new Stealth check result meets or exceeds the triggering creature’s Perception DC, the yeti remains hidden.",
+        "action": "Reaction"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Emotion","Fear","Mental","Hidden","Will","Frightened"],
+    "source": "Yeti",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Grisly Arrival",
+        "text": "Trigger The yeti hits a creature in the first round of combat and the yeti was hidden from that creature at the start of combat. Effect Each enemy within 30 feet that witnesses the attack (including the target of the attack) must attempt a DC 23 Will save. On a failure, the creature is frightened 2; on a critical failure, it’s frightened 4.",
+        "action": "Free"
       }
     ]
   },
   {
-    "tags": [],
-    "source": "",
+    "tags": ["Humanoid","Hide","Concealment"],
+    "source": "Yeti",
     "content": [
       {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
-      }
-    ]
-  },
-  {
-    "tags": [],
-    "source": "",
-    "content": [
-      {
-        "name": "",
-        "text": "",
-        "action": ""
+        "name": "Snowblind",
+        "text": "When Hiding, the yeti is concealed by any snowfall, even if it’s not thick enough to make other creatures concealed.",
+        "action": "Passive"
       }
     ]
   },
