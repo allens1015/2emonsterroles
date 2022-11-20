@@ -100,7 +100,7 @@
     ]
   },
   {
-    "tags": ["AC Bonus","Adjacent","Movement","Reaction","Kobold","Humanoid"],
+    "tags": ["AC Bonus","Adjacent","Movement","Reaction","Kobold","Humanoid","Lurker","Skirmisher"],
     "source": "Kobold Warrior",
     "content": [
       {
@@ -452,7 +452,7 @@
     ]
   },
   {
-    "tags": ["Duergar","Dwarf","Humanoid","Reflex","Prone","Immobilized","Escape","Adjacent"],
+    "tags": ["Duergar","Dwarf","Humanoid","Reflex","Prone","Immobilized","Escape","Adjacent","Ranged Controller"],
     "source": "Duergar Sharpshooter",
     "content": [
       {
@@ -727,7 +727,7 @@
     ]
   },
   {
-    "tags": ["Drow","Humanoid","Elf","Strike","Melee","Attack Bonus","Persistent Damage","Bleed"],
+    "tags": ["Drow","Humanoid","Elf","Strike","Melee","Attack Bonus","Persistent Damage","Bleed","Brute","Lurker"],
     "source": "Drow Fighter",
     "content": [
       {
@@ -749,7 +749,7 @@
     ]
   },
   {
-    "tags": ["Duergar","Dwarf","Humanoid","Ranged","Bomb"],
+    "tags": ["Duergar","Dwarf","Humanoid","Ranged","Bomb","Magic Artillery"],
     "source": "Duergar Bombardier",
     "content": [
       {
@@ -914,7 +914,7 @@
     ]
   },
   {
-    "tags": ["Leshy","Plant","Reflex","Speed Penalty","Immobilized","Movement"],
+    "tags": ["Leshy","Plant","Reflex","Speed Penalty","Immobilized","Movement","Ranged Controller"],
     "source": "Gourd Leshy",
     "content": [
       {
@@ -936,7 +936,7 @@
     ]
   },
   {
-    "tags": ["Goblin","Humanoid","Adjacent","AC Bonus","Save Bonus"],
+    "tags": ["Goblin","Humanoid","Adjacent","AC Bonus","Save Bonus","Soldier"],
     "source": "Hobgoblin Soldier",
     "content": [
       {
@@ -981,7 +981,7 @@
     ]
   },
   {
-    "tags": ["Animal","Immobilized","Ranged","Attack","Escape"],
+    "tags": ["Animal","Immobilized","Ranged","Attack","Escape","Ranged Controller"],
     "source": "Hunting Spider",
     "content": [
       {
@@ -992,7 +992,7 @@
     ]
   },
   {
-    "tags": ["Animal","Movement","Strike","Melee","Stride","Prone"],
+    "tags": ["Animal","Movement","Strike","Melee","Stride","Prone","Melee Controller","Brute"],
     "source": "Hyena",
     "content": [
       {
@@ -1003,7 +1003,7 @@
     ]
   },
   {
-    "tags": ["Animal","Movement","Adjacent","Damage Bonus"],
+    "tags": ["Animal","Movement","Adjacent","Damage Bonus","Brute","Soldier"],
     "source": "Hyena",
     "content": [
       {
@@ -1283,7 +1283,7 @@
     ]
   },
   {
-    "tags": ["Animal","Dinosaur","Stride","Strike","Attack Bonus","Charge"],
+    "tags": ["Animal","Dinosaur","Stride","Strike","Attack Bonus","Charge","Skirmisher"],
     "source": "Velociraptor",
     "content": [
       {
@@ -1371,7 +1371,7 @@
     ]
   },
   {
-    "tags": ["Animal","Attack Bonus","Stride","Strike","Movement"],
+    "tags": ["Animal","Attack Bonus","Stride","Strike","Movement","Brute","Skirmisher"],
     "source": "Boar",
     "content": [
       {
@@ -1393,7 +1393,7 @@
     ]
   },
   {
-    "tags": ["Goblin","Humanoid","Grab","Damage Bonus"],
+    "tags": ["Goblin","Humanoid","Grab","Damage Bonus","Melee Controller"],
     "source": "Bugbear Thug",
     "content": [
       {
@@ -1438,7 +1438,7 @@
     ]
   },
   {
-    "tags": ["Animal","Dinosaur","Stride","Strike"],
+    "tags": ["Animal","Dinosaur","Stride","Strike","Skirmisher"],
     "source": "Deinonychus",
     "content": [
       {
@@ -1460,7 +1460,7 @@
     ]
   },
   {
-    "tags": ["Dero","Humanoid","Encumbered","AC Bonus"],
+    "tags": ["Dero","Humanoid","Encumbered","AC Bonus","Lurker","Soldier","Melee Controller"],
     "source": "Dero Stalker",
     "content": [
       {
@@ -1482,7 +1482,7 @@
     ]
   },
   {
-    "tags": ["Duergar","Dwarf","Humanoid","Aura","Attack Bonus","Damage Bonus"],
+    "tags": ["Duergar","Dwarf","Humanoid","Aura","Attack Bonus","Damage Bonus","Mundane Artillery"],
     "source": "Duergar Taskmaster",
     "content": [
       {
@@ -1668,7 +1668,7 @@
     ]
   },
   {
-    "tags": ["Humanoid","Orc","Auditory","Concentrate","Emotion","Mental","Attack Bonus","Damage Bonus"],
+    "tags": ["Humanoid","Orc","Auditory","Concentrate","Emotion","Mental","Attack Bonus","Damage Bonus","Brute","Melee Controller"],
     "source": "Orc Warchief",
     "content": [
       {
@@ -1701,8 +1701,8 @@
     ]
   },
   {
-    "tags": ["Amphibious","Humanoid","Sea Devil","Rage","Bleed","Attack Bonus","Damage Bonus","Temporary HP","AC Penalty","Flat-Footed","Persistent Damage","Critical Hit"],
-    "source": "",
+    "tags": ["Amphibious","Humanoid","Sea Devil","Rage","Bleed","Attack Bonus","Damage Bonus","Temporary HP","AC Penalty","Flat-Footed","Persistent Damage","Critical Hit","Brute"],
+    "source": "Sea Devil Scout",
     "content": [
       {
         "name": "Blood Frenzy",
@@ -1713,7 +1713,7 @@
   },
   {
     "tags": ["Amphibious","Humanoid","Sea Devil","Piercing","Slashing","Bleed","Flat-Footed","Persistent Damage","Critical Hit"],
-    "source": "",
+    "source": "Sea Devil Scout",
     "content": [
       {
         "name": "Bloodletting",
@@ -2344,7 +2344,7 @@
     ]
   },
   {
-    "tags": ["Mindless","Skeleton","Undead","Strike","Adjacent"],
+    "tags": ["Mindless","Skeleton","Undead","Strike","Adjacent","Brute"],
     "source": "Skeletal Giant",
     "content": [
       {
@@ -2355,7 +2355,7 @@
     ]
   },
   {
-    "tags": ["Mindless","Skeleton","Undead","Stride","Strike","Damage Bonus","Demoralize"],
+    "tags": ["Mindless","Skeleton","Undead","Stride","Strike","Damage Bonus","Demoralize","Brute"],
     "source": "Skeletal Giant",
     "content": [
       {
@@ -2532,7 +2532,7 @@
     ]
   },
   {
-    "tags": ["Plant","Stride","Strike","Push","Shove","Shield"],
+    "tags": ["Plant","Stride","Strike","Push","Shove","Shield","Melee Controller"],
     "source": "Arboreal Warden",
     "content": [
       {
@@ -2576,7 +2576,7 @@
     ]
   },
   {
-    "tags": ["Animal","Stride","Strike","Attack Bonus","Charge","Reflex","Prone"],
+    "tags": ["Animal","Stride","Strike","Attack Bonus","Charge","Reflex","Prone","Brute","Melee Controller"],
     "source": "Daeodon",
     "content": [
       {
@@ -2752,7 +2752,7 @@
     ]
   },
   {
-    "tags": ["Animal","Aquatic","Swim","Stride","Movement","Strike"],
+    "tags": ["Animal","Aquatic","Swim","Stride","Movement","Strike","Skirmisher"],
     "source": "Great White Shark",
     "content": [
       {
@@ -2795,7 +2795,7 @@
     ]
   },
   {
-    "tags": ["Animal","Fly","Movement","Stride","Strike"],
+    "tags": ["Animal","Fly","Movement","Stride","Strike","Skirmisher"],
     "source": "Griffon",
     "content": [
       {
@@ -2829,7 +2829,7 @@
     ]
   },
   {
-    "tags": ["Goblin","Humanoid","Precision","Damage Bonus","Strike"],
+    "tags": ["Goblin","Humanoid","Precision","Damage Bonus","Strike","Mundane Artillery"],
     "source": "Hobgoblin Archer",
     "content": [
       {
@@ -2889,7 +2889,7 @@
     ]
   },
   {
-    "tags": ["Humanoid","Strike","Bonus Attacks","Adjacent","Melee"],
+    "tags": ["Humanoid","Strike","Bonus Attacks","Adjacent","Melee","Brute"],
     "source": "Minotaur",
     "content": [
       {
@@ -3042,7 +3042,7 @@
     ]
   },
   {
-    "tags": ["Humanoid","Ratfolk","Interact","Ranged","Inventory","Strike","Bomb"],
+    "tags": ["Humanoid","Ratfolk","Interact","Ranged","Inventory","Strike","Bomb","Magic Artillery"],
     "source": "Ratfolk Grenadier",
     "content": [
       {
@@ -3239,7 +3239,7 @@
     ]
   },
   {
-    "tags": ["Devil","Fiend","Strike","Attack Bonus","Bonus Attacks"],
+    "tags": ["Devil","Fiend","Strike","Attack Bonus","Bonus Attacks","Brute"],
     "source": "Barbazu",
     "content": [
       {
@@ -3284,7 +3284,7 @@
     ]
   },
   {
-    "tags": ["Giant","Humanoid","Flourish","Strike","Melee","Bonus Attacks"],
+    "tags": ["Giant","Humanoid","Flourish","Strike","Melee","Bonus Attacks","Brute"],
     "source": "Cyclops",
     "content": [
       {
