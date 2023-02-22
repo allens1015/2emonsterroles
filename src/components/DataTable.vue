@@ -29,7 +29,7 @@ import monsterRoles from "../models/monsterRoles";
 import localMaps from "../assets/localMaps.json";
 
 export default ({
-  name: "Table",
+  name: "DataTable",
   props: ["tableTypeIn"],
   data: () => ({
     // models

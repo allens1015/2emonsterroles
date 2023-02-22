@@ -13,29 +13,29 @@
       </v-card-text>
     </v-card>
     <!-- <Table /> -->
-    <Table tableTypeIn="stats" />
-    <Table tableTypeIn="ac" />
-    <Table tableTypeIn="hp" />
-    <Table tableTypeIn="perception" />
-    <Table tableTypeIn="saves" />
-    <Table tableTypeIn="skills" />
-    <Table tableTypeIn="attacks" />
-    <Table tableTypeIn="damage" />
-    <Table tableTypeIn="spellAttack" />
-    <Table tableTypeIn="spellDC" />
-    <Table tableTypeIn="resistAndWeakness" />
+    <DataTable tableTypeIn="stats" />
+    <DataTable tableTypeIn="ac" />
+    <DataTable tableTypeIn="hp" />
+    <DataTable tableTypeIn="perception" />
+    <DataTable tableTypeIn="saves" />
+    <DataTable tableTypeIn="skills" />
+    <DataTable tableTypeIn="attacks" />
+    <DataTable tableTypeIn="damage" />
+    <DataTable tableTypeIn="spellAttack" />
+    <DataTable tableTypeIn="spellDC" />
+    <DataTable tableTypeIn="resistAndWeakness" />
   </v-container>
 </template>
 
 <script>
 import monsterRoles from "../models/monsterRoles";
 import localMaps from "../assets/localMaps.json";
-import Table from "./Table";
+import DataTable from "./DataTable";
 
 export default ({
   name: "TableList",
   components: {
-    Table
+    DataTable
   },
   data: () => ({
     // models
