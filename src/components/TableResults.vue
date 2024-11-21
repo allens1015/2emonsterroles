@@ -16,7 +16,7 @@ import TableList from "./TableList";
 import MonsterSpecials from "./MonsterSpecials";
 
 export default ({
-  name: "Results",
+  name: "TableResults",
   components: {
     TableList,
     MonsterSpecials
